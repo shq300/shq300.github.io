@@ -36,18 +36,23 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-image {
-  width: 50px;
-  align-self: center;
-  object-fit: cover;
-  margin-right: var(--dl-space-space-doubleunit);
+.home-icon {
+  width: 40px;
+  height: 40px;
+}
+.home-separator {
+  width: 30px;
+  height: auto;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
 }
 .home-burger-menu {
   display: none;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-icon {
+.home-icon02 {
   width: 36px;
   height: 36px;
 }
@@ -111,7 +116,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-image1 {
+.home-image {
   width: 50px;
   align-self: center;
   object-fit: cover;
@@ -123,7 +128,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-icon02 {
+.home-icon04 {
   width: 24px;
   height: 24px;
 }
@@ -260,7 +265,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.home-icon04 {
+.home-icon06 {
   width: 24px;
   height: 24px;
 }
@@ -298,7 +303,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.home-icon06 {
+.home-icon08 {
   width: 24px;
   height: 24px;
 }
@@ -341,7 +346,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.home-icon08 {
+.home-icon10 {
   width: 24px;
   height: 24px;
 }
@@ -378,7 +383,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.home-icon10 {
+.home-icon12 {
   width: 24px;
   height: 24px;
 }
@@ -419,7 +424,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.home-icon12 {
+.home-icon14 {
   width: 24px;
   height: 24px;
 }
@@ -461,7 +466,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.home-icon14 {
+.home-icon16 {
   width: 24px;
   height: 24px;
 }
@@ -512,7 +517,7 @@
   align-items: center;
   flex-direction: row;
 }
-.home-icon16 {
+.home-icon18 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
@@ -535,7 +540,7 @@
     border-radius: var(--dl-radius-radius-radius4);
     background-color: var(--dl-color-gray-black);
   }
-  .home-icon {
+  .home-icon02 {
     fill: var(--dl-color-gray-white);
   }
   .home-links-container {
