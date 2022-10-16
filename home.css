@@ -12,6 +12,7 @@
   display: flex;
   z-index: 100;
   position: sticky;
+  align-self: stretch;
   box-shadow: 5px 5px 10px 0px #b9b9b9;
   align-items: center;
   flex-direction: column;
@@ -138,19 +139,20 @@
   flex-direction: column;
 }
 .home-link3 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.55;
   margin-bottom: var(--dl-space-space-unit);
+  text-transform: capitalize;
   text-decoration: none;
 }
 .home-link4 {
   margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
 }
 .home-link5 {
   margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.home-link6 {
-  text-decoration: none;
 }
 .home-hero {
   width: 100%;
@@ -195,7 +197,7 @@
 }
 .home-heading {
   color: rgb(255, 255, 255);
-  width: 1074px;
+  width: auto;
   font-size: 40px;
   font-style: normal;
   text-align: center;
@@ -234,7 +236,7 @@
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
   align-items: center;
-  padding-top: var(--dl-space-space-tenunits);
+  padding-top: var(--dl-space-space-fourunits);
   padding-left: var(--dl-space-space-tripleunit);
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
@@ -557,7 +559,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.home-link7 {
+.home-link6 {
   font-size: 18px;
   font-style: normal;
   font-family: Raleway;
@@ -622,21 +624,52 @@
   }
 }
 @media(max-width: 479px) {
+  .home-container {
+    align-items: stretch;
+  }
+  .home-navbar-container {
+    width: 100%;
+  }
+  .home-navbar {
+    width: 100%;
+  }
   .home-cta-btn {
     font-size: 16px;
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
+  .home-mobile-menu {
+    display: none;
+  }
+  .home-link4 {
+    text-decoration: none;
+  }
+  .home-link5 {
+    text-decoration: none;
+  }
   .home-hero {
     padding-top: var(--dl-space-space-fourunits);
     padding-bottom: var(--dl-space-space-fourunits);
   }
+  .home-image1 {
+    width: 400px;
+  }
   .home-hero-text {
-    width: 100%;
+    width: 400px;
+    height: auto;
+  }
+  .home-heading {
+    width: auto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
   }
   .home-features {
     padding-top: var(--dl-space-space-fiveunits);
     padding-bottom: var(--dl-space-space-fiveunits);
+  }
+  .home-cards-container {
+    flex-direction: column;
   }
   .home-features-card {
     width: 100%;
