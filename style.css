@@ -44,13 +44,15 @@
 }
 .button {
   color: var(--dl-color-gray-black);
+  width: 100%;
   display: inline-block;
   padding: 0.5rem 1rem;
+  transition: 0.3s;
   font-family: Raleway;
   border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  border-radius: 0px;
+  background-color: transparent;
 }
 .textarea {
   color: var(--dl-color-gray-black);
@@ -71,6 +73,13 @@
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
+}
+
+.btnNoText {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
 }
 .section-Text {
   font-size: 18px;
@@ -133,3 +142,7 @@
   text-transform: none;
   text-decoration: none;
 }
+
+
+
+

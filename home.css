@@ -222,7 +222,9 @@
 }
 .home-cta-btn1 {
   color: var(--dl-color-gray-white);
+  width: auto;
   display: flex;
+  align-self: center;
   margin-top: var(--dl-space-space-tripleunit);
   text-align: center;
   transition: 0.3s;
