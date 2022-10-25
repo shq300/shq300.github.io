@@ -302,8 +302,9 @@
 }
 .home-heading1 {
   font-style: normal;
+  margin-top: 0px;
   font-weight: 800;
-  margin-bottom: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-doubleunit);
 }
 .home-text07 {
   color: var(--dl-color-gray-700);
