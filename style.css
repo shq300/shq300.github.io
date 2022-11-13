@@ -30,6 +30,7 @@
 }
 .teleport-show {
   display: flex !important;
+  transform: translateY(0%) !important;
 }
 .list {
   width: 100%;
@@ -74,14 +75,62 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
-
 .btnNoText {
   width: 100%;
   height: 100%;
   display: inline-block;
   vertical-align: top;
 }
-.section-Text {
+.modal {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 101;
+  overflow: auto;
+  position: fixed;
+  padding-top: 100px;
+  align-content: center;
+  background-color: rgba(0,0,0,0.9);
+}
+.modal-content {
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: block;
+  align-self: center;
+  align-content: center;
+  animation-name: zoom;
+  animation-duration: 0.3s;
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.3s;
+}
+.close {
+  top: 15px;
+  color: #f1f1f1;
+  right: 35px;
+  position: absolute;
+  font-size: 40px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.close:hover {
+  color: #bbb;
+  cursor: pointer;
+  text-decoration: none;
+}
+.close:focus {
+  color: #bbb;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.image-zoomable:hover {
+  cursor: zoom-in;
+  opacity: 0.95;
+}
+.Section-Text {
   font-size: 18px;
   font-family: Raleway;
   font-weight: 400;
@@ -89,7 +138,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.smallCard-Heading {
+.SmallCard-Heading {
   font-size: 18px;
   font-style: normal;
   font-family: Raleway;
@@ -98,7 +147,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.card-Text {
+.Card-Text {
   font-size: 16px;
   font-style: normal;
   font-family: Raleway;
@@ -107,7 +156,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.bigCard-Heading {
+.BigCard-Heading {
   font-size: 36px;
   font-style: normal;
   font-family: Montserrat;
@@ -116,7 +165,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.card-Heading {
+.Card-Heading {
   font-size: 24px;
   font-style: normal;
   font-family: Raleway;
@@ -125,7 +174,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.anchor {
+.Anchor {
   font-size: 18px;
   font-style: normal;
   font-family: Raleway;
@@ -134,7 +183,7 @@
   text-transform: capitalize;
   text-decoration: none;
 }
-.section-Heading {
+.Section-Heading {
   font-size: 48px;
   font-family: Montserrat;
   font-weight: 700;

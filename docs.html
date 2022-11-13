@@ -7,9 +7,12 @@
       property="og:image"
       content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/dbe8bcdd-2f16-475b-87ba-367d12dd4497/2060abb1-195c-4c7e-a283-8b7742709e6a?org_if_sml=1"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
     </style>
     <style data-tag="default-style-sheet">
       html {
@@ -31,7 +34,7 @@
     </style>
     <link
       rel="shortcut icon"
-      href="/playground_assets/v18logo_1921.png"
+      href="public/playground_assets/v18logo_1921.png"
       type="icon/png"
       sizes="32x32"
     />
@@ -49,17 +52,14 @@
       html {
       scroll-behavior: smooth;
       }
-        .modal {
-          display: none;
-        }
-
-        .modal:target {
-          display: block;
-        }
-
-        .modal:not(:target) {
-          display: none;
-        }
+      @keyframes zoom {
+      from {
+      transform: scale(0)
+      }
+      to {
+      transform: scale(1)
+      }
+      }
     </style>
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -68,44 +68,52 @@
       <link href="./docs.css" rel="stylesheet" />
 
       <div class="docs-container">
-        <div data-role="Header" class="docs-navbar-container">
-          <div class="docs-navbar">
-            <div class="docs-left-side">
-              <svg viewBox="0 0 950.8571428571428 1024" class="docs-icon">
-                <path
-                  d="M950.857 627.429c0 58.857-33.714 108-96 108-69.714 0-88-63.429-150.857-63.429-45.714 0-62.857 28.571-62.857 70.857 0 44.571 18.286 87.429 17.714 131.429v2.857c-6.286 0-12.571 0-18.857 0.571-58.857 5.714-118.286 17.143-177.714 17.143-40.571 0-82.857-16-82.857-62.857 0-62.857 63.429-81.143 63.429-150.857 0-62.286-49.143-96-108-96-60 0-115.429 33.143-115.429 98.857 0 72.571 55.429 104 55.429 143.429 0 20-12.571 37.714-26.286 50.857-17.714 16.571-42.857 20-66.857 20-46.857 0-93.714-6.286-140-13.714-10.286-1.714-21.143-2.857-31.429-4.571l-7.429-1.143c-1.143-0.571-2.857-0.571-2.857-1.143v-585.143c2.286 1.714 36 5.714 41.714 6.857 46.286 7.429 93.143 13.714 140 13.714 24 0 49.143-3.429 66.857-20 13.714-13.143 26.286-30.857 26.286-50.857 0-39.429-55.429-70.857-55.429-143.429 0-65.714 55.429-98.857 116-98.857 58.286 0 107.429 33.714 107.429 96 0 69.714-63.429 88-63.429 150.857 0 46.857 42.286 62.857 82.857 62.857 65.714 0 130.857-14.857 196-18.286v1.143c-1.714 2.286-5.714 36-6.857 41.714-7.429 46.286-13.714 93.143-13.714 140 0 24 3.429 49.143 20 66.857 13.143 13.714 30.857 26.286 50.857 26.286 39.429 0 70.857-55.429 143.429-55.429 65.714 0 98.857 55.429 98.857 115.429z"
-                ></path>
-              </svg>
-              <div class="docs-separator"></div>
-              <div data-type="BurgerMenu" class="docs-burger-menu">
-                <svg viewBox="0 0 1024 1024" class="docs-icon02">
-                  <path
-                    d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
-                  ></path>
-                </svg>
-              </div>
-              <div class="docs-links-container">
-                <a href="index.html" class="docs-link anchor">home</a>
-                <a href="docs.html" class="docs-link01">
-                  <span class="anchor">Documentation</span>
-                  <br />
-                </a>
-                <span class="docs-link02 anchor">Contact</span>
-              </div>
-            </div>
-            <div class="docs-right-side">
-              <a
-                href="https://www.unrealengine.com/marketplace/en-US/product/rpg-inventory-and-interaction-system"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="docs-cta-btn button"
-              >
-                MARKETPLACE PAGE
+        <header data-thq="thq-navbar" class="docs-navbar-interactive">
+          <svg viewBox="0 0 950.8571428571428 1024" class="docs-icon">
+            <path
+              d="M950.857 627.429c0 58.857-33.714 108-96 108-69.714 0-88-63.429-150.857-63.429-45.714 0-62.857 28.571-62.857 70.857 0 44.571 18.286 87.429 17.714 131.429v2.857c-6.286 0-12.571 0-18.857 0.571-58.857 5.714-118.286 17.143-177.714 17.143-40.571 0-82.857-16-82.857-62.857 0-62.857 63.429-81.143 63.429-150.857 0-62.286-49.143-96-108-96-60 0-115.429 33.143-115.429 98.857 0 72.571 55.429 104 55.429 143.429 0 20-12.571 37.714-26.286 50.857-17.714 16.571-42.857 20-66.857 20-46.857 0-93.714-6.286-140-13.714-10.286-1.714-21.143-2.857-31.429-4.571l-7.429-1.143c-1.143-0.571-2.857-0.571-2.857-1.143v-585.143c2.286 1.714 36 5.714 41.714 6.857 46.286 7.429 93.143 13.714 140 13.714 24 0 49.143-3.429 66.857-20 13.714-13.143 26.286-30.857 26.286-50.857 0-39.429-55.429-70.857-55.429-143.429 0-65.714 55.429-98.857 116-98.857 58.286 0 107.429 33.714 107.429 96 0 69.714-63.429 88-63.429 150.857 0 46.857 42.286 62.857 82.857 62.857 65.714 0 130.857-14.857 196-18.286v1.143c-1.714 2.286-5.714 36-6.857 41.714-7.429 46.286-13.714 93.143-13.714 140 0 24 3.429 49.143 20 66.857 13.143 13.714 30.857 26.286 50.857 26.286 39.429 0 70.857-55.429 143.429-55.429 65.714 0 98.857 55.429 98.857 115.429z"
+            ></path>
+          </svg>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="docs-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="docs-nav"
+            >
+              <a href="index.html" class="docs-navlink Card-Heading">Home</a>
+              <a href="docs.html" class="docs-navlink1 Card-Heading">
+                Documentation
               </a>
-            </div>
-            <div data-type="MobileMenu" class="docs-mobile-menu">
+              <span class="docs-text Card-Heading">Contact</span>
+            </nav>
+          </div>
+          <a
+            href="https://www.unrealengine.com/marketplace/en-US/product/rpg-inventory-and-interaction-system"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="docs-cta-btn button"
+          >
+            MARKETPLACE PAGE
+          </a>
+          <div data-thq="thq-burger-menu" class="docs-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="docs-icon02">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="docs-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="docs-nav1"
+            >
               <div class="docs-container01">
-                <div data-type="CloseMobileMenu" class="docs-close-menu">
+                <div data-thq="thq-close-menu" class="docs-menu-close">
                   <svg viewBox="0 0 1024 1024" class="docs-icon04">
                     <path
                       d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
@@ -113,32 +121,39 @@
                   </svg>
                 </div>
               </div>
-              <div class="docs-links-container1">
-                <a href="index.html" class="docs-link03">Home</a>
-                <a href="docs.html" class="docs-link04">Documentation</a>
-              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="docs-nav2"
+              >
+                <a href="index.html" class="docs-navlink2">Home</a>
+                <a href="docs.html" class="docs-navlink3">Documentation</a>
+                <span class="docs-text01">Contact</span>
+              </nav>
             </div>
           </div>
-        </div>
+        </header>
         <div class="docs-container02">
           <div class="docs-sidebar">
             <div class="docs-container03">
               <div class="docs-nav-item">
                 <span class="docs-text02">Getting started</span>
                 <div class="docs-options">
-                  <a href="#faq" class="docs-link05">FAQ</a>
-                  <a href="#qckoverview" class="docs-link06">Quick Overview</a>
+                  <a href="#faq" class="docs-link Anchor">FAQ</a>
+                  <a href="#qckoverview" class="docs-link1 Anchor">
+                    Quick Overview
+                  </a>
                 </div>
               </div>
               <div class="docs-nav-item1">
                 <span class="docs-text03">Documentation</span>
                 <div class="docs-options1">
-                  <a href="#inventoryov" class="docs-link07">Inventory</a>
+                  <a href="#inventoryov" class="docs-link2">Element#1</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="docs-separator1">
+          <div class="docs-separator">
             <div class="docs-container04">
               <svg viewBox="0 0 1024 1024" class="docs-icon06">
                 <path
@@ -172,7 +187,7 @@
                           href="https://drive.google.com/file/d/1N4NmSuKMmytjym3zg80z0CqxjflffM6T/view"
                           target="_blank"
                           rel="noreferrer noopener"
-                          class="docs-link08"
+                          class="docs-link3"
                         >
                           here
                         </a>
@@ -246,7 +261,7 @@
                           href="https://trello.com/b/YNpjPjOk/rpg-ii"
                           target="_blank"
                           rel="noreferrer noopener"
-                          class="docs-link09"
+                          class="docs-link4"
                         >
                           here
                         </a>
@@ -286,12 +301,12 @@
                         <img
                           alt="image"
                           src="https://lh4.googleusercontent.com/Yb0tcinz3o3p53210HtmDkhT3uOsmAX_OGpaKPxzPkliJG5OSc2vYo2PwfHzVdC6V6E=w2400"
-                          class="docs-image1"
+                          class="docs-image01"
                         />
                         <img
                           alt="image"
                           src="https://lh3.googleusercontent.com/vUcimSKBkvjcajUBFYWvR-j7b--F4FnK9MRcDNxYZAVTY72gXxcgU9HDYFgilvJaTbA=w2400"
-                          class="docs-image2"
+                          class="docs-image02"
                         />
                       </div>
                     </div>
@@ -320,10 +335,10 @@
                 <div class="docs-container16">
                   <div class="docs-container17">
                     <img
-                      src="https://lh5.googleusercontent.com/gn0RhVprBiZF-oFPq-YoJHRVNDsovzzDu0i-7w3mQr5cDmZSjtNthsqDVdm-594FbRI=w2400"
                       alt="image"
+                      src="https://lh5.googleusercontent.com/gn0RhVprBiZF-oFPq-YoJHRVNDsovzzDu0i-7w3mQr5cDmZSjtNthsqDVdm-594FbRI=w2400"
                       loading="lazy"
-                      class="docs-image3"
+                      class="docs-image03 image-zoomable"
                     />
                     <span class="docs-text23">
                       Component tree in the system
@@ -331,10 +346,10 @@
                   </div>
                   <div class="docs-container18">
                     <img
-                      src="https://lh6.googleusercontent.com/HvRxr-G4vBxJ3_pQxC_zD1AwZI4x8I9BICAPACEGvuJoKAwnwfA4eRiVZWGbffrbM3s=w2400"
                       alt="image"
+                      src="https://lh6.googleusercontent.com/HvRxr-G4vBxJ3_pQxC_zD1AwZI4x8I9BICAPACEGvuJoKAwnwfA4eRiVZWGbffrbM3s=w2400"
                       loading="lazy"
-                      class="docs-image4"
+                      class="docs-image04 image-zoomable"
                     />
                     <span class="docs-text24">
                       Changing Component parameters on a Player Controller
@@ -342,10 +357,10 @@
                   </div>
                   <div class="docs-container19">
                     <img
-                      src="https://lh4.googleusercontent.com/qQb6-uA8KEyCAUA-1E44wZJmi-cs_QYlxv6jBrARgtG-_8OZ8J5MCsM0CTAl2SGpKbY=w2400"
                       alt="image"
+                      src="https://lh4.googleusercontent.com/qQb6-uA8KEyCAUA-1E44wZJmi-cs_QYlxv6jBrARgtG-_8OZ8J5MCsM0CTAl2SGpKbY=w2400"
                       loading="lazy"
-                      class="docs-image5"
+                      class="docs-image05 image-zoomable"
                     />
                     <span class="docs-text25">
                       Changing Component parameters on an actor in the level
@@ -367,10 +382,10 @@
                 <div class="docs-container21">
                   <div class="docs-container22">
                     <img
-                      src="https://lh5.googleusercontent.com/kEi3Gf931AgTDEnAGjV3ElyzsSGpe_oWQQTZewIJciZ45o8FISIUEkGmdCraOvETYqk=w2400"
                       alt="image"
+                      src="https://lh5.googleusercontent.com/kEi3Gf931AgTDEnAGjV3ElyzsSGpe_oWQQTZewIJciZ45o8FISIUEkGmdCraOvETYqk=w2400"
                       loading="lazy"
-                      class="docs-image6"
+                      class="docs-image06 image-zoomable"
                     />
                     <span class="docs-text27">
                       Storing Player Inventory Component on Widget Construct
@@ -379,10 +394,10 @@
                   </div>
                   <div class="docs-container23">
                     <img
-                      src="https://lh3.googleusercontent.com/61eAfWj23VvHX2mNnGWB_QIzvD4ksul-QutbkK5ujO3YcAhTyEcPy9bkBQlf17Qd-xE=w2400"
                       alt="image"
+                      src="https://lh3.googleusercontent.com/61eAfWj23VvHX2mNnGWB_QIzvD4ksul-QutbkK5ujO3YcAhTyEcPy9bkBQlf17Qd-xE=w2400"
                       loading="lazy"
-                      class="docs-image7"
+                      class="docs-image07 image-zoomable"
                     />
                     <span class="docs-text28">
                       Retrieving Inventory from current Interactable Object
@@ -390,44 +405,119 @@
                   </div>
                   <div class="docs-container24">
                     <img
-                      src="https://lh6.googleusercontent.com/bvQD-QyhhVVVgAnVQoL_nH0XGLkmVQN0r6EMhcK7wLaUxI_eQHgPGCQ0TwqKDAOpxvM=w2400"
                       alt="image"
+                      src="https://lh6.googleusercontent.com/bvQD-QyhhVVVgAnVQoL_nH0XGLkmVQN0r6EMhcK7wLaUxI_eQHgPGCQ0TwqKDAOpxvM=w2400"
                       loading="lazy"
-                      class="docs-image8"
+                      class="docs-image08 image-zoomable"
                     />
                     <span class="docs-text29">
                       Using utility nodes from Macro Library
                     </span>
                   </div>
                 </div>
+                <div class="docs-container25">
+                  <span class="docs-text30">
+                    Items in the system are represented as Structure Datas, that
+                    consists of runtime modifiable elements, one of which is the
+                    Item Class. It contains many Item defining parameters that
+                    are considered as read-only (non-modifiable in runtime) and
+                    are retrieved by getting the Object Class Defaults. Note
+                    that there's no Object Construction nodes to keep it more
+                    performant. In order to add new item to the project it is
+                    required creating new object derived from BP_MainItem and
+                    assigning that newly created class inside one of the Items
+                    Data Tables.
+                  </span>
+                </div>
+                <div class="docs-container26">
+                  <div class="docs-container27">
+                    <img
+                      alt="image"
+                      src="https://lh6.googleusercontent.com/qWBYFP5CJUeCXcyJS3JlptJ1N6H8OIWXeGASCDv-UvCM_8aFGAJdry26lIcII9tOw1U=w2400"
+                      loading="lazy"
+                      class="docs-image09 image-zoomable"
+                    />
+                    <span class="docs-text31">
+                      Creating new Item Class derived from 'BP_MainItem'
+                    </span>
+                  </div>
+                  <div class="docs-container28">
+                    <img
+                      alt="image"
+                      src="https://lh4.googleusercontent.com/T2I1dpHIqs0sTweePPRg0kUqVu_N1shMjL9bTLhw2SABsdhe2wGa5x3UVhPQW1wrxLQ=w2400"
+                      loading="lazy"
+                      class="docs-image10 image-zoomable"
+                    />
+                    <span class="docs-text32">
+                      Filling Item parameters inside the Class Defaults tab
+                    </span>
+                  </div>
+                  <div class="docs-container29">
+                    <img
+                      alt="image"
+                      src="https://lh3.googleusercontent.com/hYJlB1D24shgwslH5st7AxwBTHFJM8CCa62kXAUH6Hat5b417jFNM8uItdcdPMwBzwI=w2400"
+                      loading="lazy"
+                      class="docs-image11 image-zoomable"
+                    />
+                    <span class="docs-text33">
+                      Adding new Item (ID, Slot &amp; Class) to the Data Table
+                    </span>
+                  </div>
+                </div>
+                <div class="docs-container30">
+                  <span class="docs-text34">
+                    Items can be attached to the Player either by setting new
+                    Skeletal Mesh attached to the Character (mainly armor parts)
+                    or by Spawning new Equippable Class and attaching it to a
+                    socket on a Character Skeleton (mainly weapons). Equippable
+                    Actors uses Combat and Non-Combat socket names (defined in
+                    class defaults), they can also be attached to a specified
+                    socket. This provides an easy way of for example equipping
+                    and sheathing your weapon.
+                  </span>
+                </div>
+                <div class="docs-container31">
+                  <div class="docs-container32">
+                    <img
+                      alt="image"
+                      src="https://lh3.googleusercontent.com/Ph_NIKuJRkpraScdTbIhLahiE15pvYMho0YTmD2la_ePe-D7lHhdlEkkVlAJ4aarvXk=w2400"
+                      loading="lazy"
+                      class="docs-image12 image-zoomable"
+                    />
+                    <span class="docs-text35">
+                      Updating Armor part happens inside RPG Inventory Character
+                    </span>
+                  </div>
+                  <div class="docs-container33">
+                    <img
+                      alt="image"
+                      src="https://lh5.googleusercontent.com/rKqkXJzvEsBwaNV59Q3ibyogA3TzOiae9ECplV_hspblEnRXZaCuOPNRFim_HbwVBCE=w2400"
+                      loading="lazy"
+                      class="docs-image13 image-zoomable"
+                    />
+                    <span class="docs-text36">
+                      Equippable Actors can use multiple Slot associated sockets
+                    </span>
+                  </div>
+                  <div class="docs-container34">
+                    <img
+                      alt="image"
+                      src="https://lh4.googleusercontent.com/cjID0c6pGcpuZDkDmaR7833IqYr-2VNblZ7iiKQqk1nxOgG-__Kh8ECjpAGjf4gaQwo=w2400"
+                      loading="lazy"
+                      class="docs-image14 image-zoomable"
+                    />
+                    <span class="docs-text37">
+                      Example of how an equipped weapon sockets can be switched
+                      in runtime
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
-            <div id="inventoryov" class="docs-container25">
-              <span class="docs-text30">
-                <span>1. Inventory System Overview</span>
-                <br />
-              </span>
-              <div class="docs-container26">
-                <span class="docs-text33">
-                  <br class="docs-text34" />
-                  <span class="docs-text35">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec semper et velit ut tempus. Vestibulum ut lacus ut nisi
-                    fringilla efficitur. Cras pellentesque condimentum arcu
-                    bibendum molestie. Aliquam hendrerit eleifend lorem,
-                    fermentum vestibulum justo lacinia sed. Sed pellentesque,
-                    justo et lobortis tristique, nibh turpis fringilla ipsum,
-                    sit amet euismod diam ligula a turpis. Nulla ac eros
-                    condimentum, aliquam turpis sed, hendrerit velit. Praesent
-                    ultrices sit amet felis a mattis. Vestibulum ante ipsum
-                    primis in faucibus orci luctus et ultrices posuere cubilia
-                    curae; Vivamus sed lorem nec dui pulvinar porta non quis
-                    leo.
-                  </span>
-                  <br />
-                </span>
-                <div class="docs-container27">
-                  <span class="docs-text37">
+            <div id="inventoryov" class="docs-container35">
+              <div class="docs-container36">
+                <div class="docs-container37">
+                  <span class="docs-text38">
                     <span>Under construction...</span>
                     <br />
                   </span>
@@ -444,12 +534,21 @@
                   d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
                 ></path>
               </svg>
-              <span class="docs-link10">
-                <span class="docs-text40">shq300</span>
-                <span class="anchor">, 2022</span>
+              <span class="docs-link5">
+                <span class="docs-text41">shq300</span>
+                <span class="Anchor">, 2022</span>
               </span>
             </div>
           </div>
+        </div>
+        <div id="myModal" class="docs-container38 modal">
+          <img
+            id="img01"
+            alt="image"
+            src="https://play.teleporthq.io/static/svg/default-img.svg"
+            class="docs-image15 modal-content"
+          />
+          <span class="close">X</span>
         </div>
       </div>
     </div>
@@ -461,8 +560,25 @@
       x.style.display = "block";
       } else {
       x.style.display = "none";
+      }}
+      // create references to the modal...
+      var modal = document.getElementById('myModal');
+      modal.onclick = function(){
+      modal.style.display = "none";
       }
-      }
+      // to all images -- note I'm using a class!
+      var images = document.getElementsByClassName('image-zoomable');
+      // the image in the modal
+      var modalImg = document.getElementById("img01");
+      // Go through all of the images with our custom class
+      for (var i = 0; i < images.length; i++) {
+       var img=images[i]; // and attach our click listener for this image.
+        img.onclick=function(evt) {
+        modal.style.display="block" ;
+        modalImg.src=this.src;
+        }}
+        var span=document.getElementsByClassName("close")[0];
+        span.onclick=function() { modal.style.display="none" ; }
     </script>
   </body>
 </html>
