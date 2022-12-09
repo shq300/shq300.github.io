@@ -90,8 +90,10 @@
   z-index: 101;
   overflow: auto;
   position: fixed;
-  padding-top: 100px;
+  align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
   align-content: center;
+  justify-content: center;
   background-color: rgba(0,0,0,0.9);
 }
 .modal-content {
@@ -100,6 +102,7 @@
   margin: auto;
   display: block;
   align-self: center;
+  object-fit: cover;
   align-content: center;
   animation-name: zoom;
   animation-duration: 0.3s;
