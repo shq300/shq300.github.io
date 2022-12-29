@@ -50,6 +50,10 @@
   margin-left: 32px;
   text-decoration: none;
 }
+.updates-navlink3 {
+  margin-left: 32px;
+  text-decoration: none;
+}
 .updates-cta-btn {
   color: var(--dl-color-gray-white);
   width: auto;
@@ -127,11 +131,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.updates-navlink3 {
+.updates-navlink4 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.updates-navlink4 {
+.updates-navlink5 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -880,12 +884,12 @@
     align-items: center;
     justify-content: flex-start;
   }
-  .updates-navlink3 {
+  .updates-navlink4 {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .updates-navlink4 {
+  .updates-navlink5 {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;

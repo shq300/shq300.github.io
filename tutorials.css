@@ -1,4 +1,4 @@
-.contact-container {
+.tutorials-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.contact-navbar-interactive {
+.tutorials-navbar-interactive {
   top: 0;
   width: 100%;
   display: flex;
@@ -22,39 +22,39 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.contact-icon {
+.tutorials-icon {
   width: 64px;
   height: auto;
   margin-right: var(--dl-space-space-tenunits);
 }
-.contact-desktop-menu {
+.tutorials-desktop-menu {
   flex: 1;
   width: auto;
   display: flex;
   justify-content: flex-start;
 }
-.contact-nav {
+.tutorials-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.contact-navlink {
+.tutorials-navlink {
   text-decoration: none;
 }
-.contact-navlink1 {
+.tutorials-navlink1 {
   margin-left: 32px;
   text-decoration: none;
 }
-.contact-navlink2 {
+.tutorials-navlink2 {
   margin-left: 32px;
   text-decoration: none;
 }
-.contact-navlink3 {
+.tutorials-navlink3 {
   margin-left: 32px;
   text-decoration: none;
 }
-.contact-cta-btn {
+.tutorials-cta-btn {
   color: var(--dl-color-gray-white);
   width: auto;
   transition: 0.3s;
@@ -66,30 +66,30 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.contact-cta-btn:hover {
+.tutorials-cta-btn:hover {
   color: #0c0c0c;
   background-color: #dcdcdc;
 }
-.contact-burger-menu {
+.tutorials-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.contact-icon2 {
+.tutorials-icon02 {
   width: 16px;
   height: 16px;
   transition: 0.3s;
 }
-.contact-icon2:focus {
+.tutorials-icon02:focus {
   fill: #D9D9D9;
 }
-.contact-icon2:hover {
+.tutorials-icon02:hover {
   fill: #D9D9D9;
 }
-.contact-icon2:active {
+.tutorials-icon02:active {
   fill: #D9D9D9;
 }
-.contact-mobile-menu {
+.tutorials-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -104,45 +104,45 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.contact-nav1 {
+.tutorials-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.contact-container1 {
+.tutorials-container1 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 48px;
   justify-content: space-between;
 }
-.contact-menu-close {
+.tutorials-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.contact-icon4 {
+.tutorials-icon04 {
   width: 16px;
   height: 16px;
 }
-.contact-nav2 {
+.tutorials-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.contact-navlink4 {
+.tutorials-navlink4 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.contact-navlink5 {
+.tutorials-navlink5 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.contact-text {
+.tutorials-text {
   margin-bottom: var(--dl-space-space-unit);
 }
-.contact-container2 {
+.tutorials-container2 {
   flex: 1;
   width: 100%;
   height: 100%;
@@ -154,7 +154,7 @@
   justify-content: space-between;
   background-image: linear-gradient(90deg, rgb(229, 229, 229) 0.00%,rgb(215, 214, 214) 100.00%);
 }
-.contact-separator {
+.tutorials-separator {
   width: 100%;
   display: flex;
   align-self: flex-start;
@@ -162,81 +162,137 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.contact-container3 {
-  height: 600px;
+.tutorials-container3 {
+  flex: 0 0 auto;
+  height: 100%;
   display: flex;
   align-self: stretch;
   box-shadow: 5px 5px 10px 0px #a9a9a9;
   align-items: center;
-  flex-direction: column;
   justify-content: center;
   background-image: linear-gradient(90deg, rgb(185, 221, 41) 0.00%,rgb(111, 185, 53) 100.00%);
 }
-.contact-container4 {
+.tutorials-icon06 {
+  fill: #ffffff;
+  width: 100px;
+  align-self: center;
+  margin-top: var(--dl-space-space-tripleunit);
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.tutorials-text01 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 32px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Noto Sans;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.tutorials-container4 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-tenunits);
+  border-color: var(--dl-color-gray-black);
+  border-style: double;
+  border-width: 4px;
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-fourunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tenunits);
+  justify-content: flex-start;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.tutorials-text02 {
+  font-size: 42px;
+  align-self: center;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 600;
+}
+.tutorials-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.tutorials-container6 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-tenunits);
-  padding-right: var(--dl-space-space-tenunits);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.contact-image {
-  width: 100px;
-  object-fit: cover;
-}
-.contact-text1 {
-  color: rgb(255, 255, 255);
-  width: auto;
-  font-size: 30px;
   align-self: center;
-  font-style: normal;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 700;
-  line-height: 1.55;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: stretch;
+  margin-left: var(--dl-space-space-tenunits);
+  margin-right: var(--dl-space-space-tenunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tutorials-navlink6 {
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: row;
   text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, rgb(255, 255, 255) 1.00%,rgb(238, 238, 238) 100.00%);
 }
-.contact-text2 {
-  font-family: Montserrat;
+.tutorials-navlink6:hover {
+  background-image: linear-gradient(90deg, rgb(107, 208, 130) 0.00%,rgb(176, 217, 127) 100.00%);
 }
-.contact-container5 {
-  flex: 0 0 auto;
+.tutorials-navlink7 {
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, rgb(255, 255, 255) 1.00%,rgb(238, 238, 238) 100.00%);
+}
+.tutorials-navlink7:hover {
+  background-image: linear-gradient(90deg, rgb(107, 208, 130) 0.00%,rgb(176, 217, 127) 100.00%);
+}
+.tutorials-navlink8 {
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  margin-top: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, rgb(255, 255, 255) 1.00%,rgb(238, 238, 238) 100.00%);
+}
+.tutorials-navlink8:hover {
+  background-image: linear-gradient(90deg, rgb(107, 208, 130) 0.00%,rgb(176, 217, 127) 100.00%);
+}
+.tutorials-footer-container {
   width: 100%;
   display: flex;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-tenunits);
-  padding-right: var(--dl-space-space-tenunits);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.contact-image1 {
-  width: 100px;
-  padding: var(--dl-space-space-unit);
-  object-fit: cover;
-}
-.contact-text4 {
-  color: rgb(255, 255, 255);
-  width: auto;
-  font-size: 30px;
-  align-self: center;
-  font-style: normal;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 700;
-  line-height: 1.55;
-  text-decoration: none;
-}
-.contact-footer-container {
-  display: flex;
-  align-self: stretch;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.contact-footer {
+.tutorials-footer {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -248,17 +304,17 @@
   padding-bottom: var(--dl-space-space-tripleunit);
   justify-content: space-between;
 }
-.contact-copyright-container {
+.tutorials-copyright-container {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.contact-icon6 {
+.tutorials-icon08 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.contact-link {
+.tutorials-link {
   font-size: 18px;
   font-style: normal;
   font-family: Raleway;
@@ -266,29 +322,32 @@
   line-height: 1.55;
   text-decoration: none;
 }
-.contact-text5 {
+.tutorials-text08 {
   text-transform: lowercase;
 }
+.tutorials-container7 {
+  display: none;
+}
 @media(max-width: 1200px) {
-  .contact-navbar-interactive {
+  .tutorials-navbar-interactive {
     padding-left: var(--dl-space-space-tenunits);
     padding-right: var(--dl-space-space-tenunits);
   }
-  .contact-icon {
+  .tutorials-icon {
     margin-right: var(--dl-space-space-fiveunits);
   }
 }
 @media(max-width: 991px) {
-  .contact-navbar-interactive {
+  .tutorials-navbar-interactive {
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .contact-icon {
+  .tutorials-icon {
     width: 64px;
     height: auto;
     margin-right: var(--dl-space-space-doubleunit);
   }
-  .contact-cta-btn {
+  .tutorials-cta-btn {
     color: var(--dl-color-gray-white);
     width: auto;
     align-self: center;
@@ -296,104 +355,104 @@
     text-decoration: none;
     background-color: var(--dl-color-gray-black);
   }
-  .contact-separator {
+  .tutorials-separator {
     width: 100%;
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .contact-container3 {
+  .tutorials-container3 {
     width: auto;
   }
 }
 @media(max-width: 890px) {
-  .contact-navbar-interactive {
+  .tutorials-navbar-interactive {
     padding-top: var(--dl-space-space-unit);
     padding-left: 32px;
     padding-right: 32px;
   }
-  .contact-icon {
+  .tutorials-icon {
     display: none;
   }
-  .contact-desktop-menu {
+  .tutorials-desktop-menu {
     display: none;
   }
-  .contact-burger-menu {
+  .tutorials-burger-menu {
     display: flex;
   }
-  .contact-icon2 {
+  .tutorials-icon02 {
     width: 64px;
     height: auto;
   }
-  .contact-mobile-menu {
+  .tutorials-mobile-menu {
     padding-top: var(--dl-space-space-doubleunit);
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
     padding-bottom: var(--dl-space-space-doubleunit);
   }
-  .contact-container1 {
+  .tutorials-container1 {
     width: 100%;
     align-self: flex-end;
   }
-  .contact-menu-close {
+  .tutorials-menu-close {
     flex: 1;
     justify-content: flex-end;
   }
-  .contact-icon4 {
+  .tutorials-icon04 {
     width: 64px;
     height: auto;
   }
-  .contact-nav2 {
+  .tutorials-nav2 {
     align-self: stretch;
     align-items: center;
     justify-content: flex-start;
   }
-  .contact-navlink4 {
+  .tutorials-navlink4 {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .contact-navlink5 {
+  .tutorials-navlink5 {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .contact-text {
+  .tutorials-text {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .contact-separator {
+  .tutorials-separator {
     width: 100%;
   }
-  .contact-container3 {
+  .tutorials-container3 {
     width: auto;
   }
 }
 @media(max-width: 479px) {
-  .contact-navbar-interactive {
+  .tutorials-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .contact-cta-btn {
+  .tutorials-cta-btn {
     font-size: 16px;
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .contact-mobile-menu {
+  .tutorials-mobile-menu {
     padding: 16px;
   }
-  .contact-container2 {
+  .tutorials-container2 {
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
   }
-  .contact-separator {
+  .tutorials-separator {
     width: 90%;
     align-self: flex-start;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
   }
-  .contact-container3 {
+  .tutorials-container3 {
     width: auto;
     height: auto;
   }

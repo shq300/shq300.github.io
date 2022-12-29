@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TutorialNewinventorypanel - RPG Inventory</title>
+    <meta
+      property="og:title"
+      content="TutorialNewinventorypanel - RPG Inventory"
+    />
+    <meta
+      property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/dbe8bcdd-2f16-475b-87ba-367d12dd4497/2060abb1-195c-4c7e-a283-8b7742709e6a?org_if_sml=1"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Raleway;
+        font-size: 18px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/playground_assets/v18logo_1921.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      html {
+      scroll-behavior: smooth;
+      }
+      @keyframes zoom {
+      from {
+      transform: scale(0)
+      }
+      to {
+      transform: scale(1)
+      }
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./tutorial-newinventorypanel.css" rel="stylesheet" />
+
+      <div class="tutorial-newinventorypanel-container">
+        <header
+          data-thq="thq-navbar"
+          class="tutorial-newinventorypanel-navbar-interactive"
+        >
+          <svg
+            viewBox="0 0 950.8571428571428 1024"
+            class="tutorial-newinventorypanel-icon"
+          >
+            <path
+              d="M950.857 627.429c0 58.857-33.714 108-96 108-69.714 0-88-63.429-150.857-63.429-45.714 0-62.857 28.571-62.857 70.857 0 44.571 18.286 87.429 17.714 131.429v2.857c-6.286 0-12.571 0-18.857 0.571-58.857 5.714-118.286 17.143-177.714 17.143-40.571 0-82.857-16-82.857-62.857 0-62.857 63.429-81.143 63.429-150.857 0-62.286-49.143-96-108-96-60 0-115.429 33.143-115.429 98.857 0 72.571 55.429 104 55.429 143.429 0 20-12.571 37.714-26.286 50.857-17.714 16.571-42.857 20-66.857 20-46.857 0-93.714-6.286-140-13.714-10.286-1.714-21.143-2.857-31.429-4.571l-7.429-1.143c-1.143-0.571-2.857-0.571-2.857-1.143v-585.143c2.286 1.714 36 5.714 41.714 6.857 46.286 7.429 93.143 13.714 140 13.714 24 0 49.143-3.429 66.857-20 13.714-13.143 26.286-30.857 26.286-50.857 0-39.429-55.429-70.857-55.429-143.429 0-65.714 55.429-98.857 116-98.857 58.286 0 107.429 33.714 107.429 96 0 69.714-63.429 88-63.429 150.857 0 46.857 42.286 62.857 82.857 62.857 65.714 0 130.857-14.857 196-18.286v1.143c-1.714 2.286-5.714 36-6.857 41.714-7.429 46.286-13.714 93.143-13.714 140 0 24 3.429 49.143 20 66.857 13.143 13.714 30.857 26.286 50.857 26.286 39.429 0 70.857-55.429 143.429-55.429 65.714 0 98.857 55.429 98.857 115.429z"
+            ></path>
+          </svg>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="tutorial-newinventorypanel-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="tutorial-newinventorypanel-nav"
+            >
+              <div class="tutorial-newinventorypanel-container01">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  class="tutorial-newinventorypanel-icon02"
+                >
+                  <path
+                    d="M402.746 877.254l-320-320c-24.994-24.992-24.994-65.516 0-90.51l320-320c24.994-24.992 65.516-24.992 90.51 0 24.994 24.994 24.994 65.516 0 90.51l-210.746 210.746h613.49c35.346 0 64 28.654 64 64s-28.654 64-64 64h-613.49l210.746 210.746c12.496 12.496 18.744 28.876 18.744 45.254s-6.248 32.758-18.744 45.254c-24.994 24.994-65.516 24.994-90.51 0z"
+                  ></path>
+                </svg>
+                <a
+                  href="tutorials.html"
+                  class="tutorial-newinventorypanel-navlink Card-Heading"
+                >
+                  Back to Tutorials
+                </a>
+              </div>
+            </nav>
+          </div>
+          <a
+            href="https://www.unrealengine.com/marketplace/en-US/product/rpg-inventory-and-interaction-system"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="tutorial-newinventorypanel-cta-btn button"
+          >
+            MARKETPLACE PAGE
+          </a>
+          <div
+            data-thq="thq-burger-menu"
+            class="tutorial-newinventorypanel-burger-menu"
+          >
+            <svg
+              viewBox="0 0 1024 1024"
+              class="tutorial-newinventorypanel-icon04"
+            >
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div
+            data-thq="thq-mobile-menu"
+            class="tutorial-newinventorypanel-mobile-menu"
+          >
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="tutorial-newinventorypanel-nav1"
+            >
+              <div class="tutorial-newinventorypanel-container02">
+                <div
+                  data-thq="thq-close-menu"
+                  class="tutorial-newinventorypanel-menu-close"
+                >
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    class="tutorial-newinventorypanel-icon06"
+                  >
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="tutorial-newinventorypanel-nav2"
+              >
+                <a
+                  href="index.html"
+                  class="tutorial-newinventorypanel-navlink1"
+                >
+                  Home
+                </a>
+                <a href="docs.html" class="tutorial-newinventorypanel-navlink2">
+                  Documentation
+                </a>
+                <span class="tutorial-newinventorypanel-text">Contact</span>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <div class="tutorial-newinventorypanel-container03">
+          <div class="tutorial-newinventorypanel-separator">
+            <div class="tutorial-newinventorypanel-container04">
+              <svg
+                viewBox="0 0 1024 1024"
+                class="tutorial-newinventorypanel-icon08"
+              >
+                <path
+                  d="M810 298v-84h-426v84h426zM640 640v-86h-256v86h256zM810 470v-86h-426v86h426zM854 86q34 0 59 25t25 59v512q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h512zM170 256v598h598v84h-598q-34 0-59-25t-25-59v-598h84z"
+                ></path>
+              </svg>
+              <h1 class="tutorial-newinventorypanel-text01">
+                Tutorial: Adding New Inventory Panel
+              </h1>
+            </div>
+            <div class="tutorial-newinventorypanel-container05">
+              <div class="tutorial-newinventorypanel-container06">
+                <div class="infoblock-container infoblock-root-class-name">
+                  <svg viewBox="0 0 1024 1024" class="infoblock-icon">
+                    <path
+                      d="M512 235.136c23.936 0 47.744 15.104 65.877 45.312l252.245 420.437c36.309 60.373 8.277 109.781-62.123 109.781h-512c-70.4 0-98.432-49.451-62.123-109.781l252.245-420.437c18.133-30.208 41.941-45.312 65.877-45.312M512 149.803c-55.296 0-105.899 31.573-139.051 86.656l-252.245 420.523c-33.536 55.851-37.205 115.413-10.027 163.413s80.171 75.605 145.323 75.605h512c65.152 0 118.187-27.563 145.323-75.563s23.509-107.563-10.027-163.413l-252.245-420.437c-33.152-55.211-83.755-86.784-139.051-86.784z"
+                    ></path>
+                    <path
+                      d="M576 714.581c0 0-30.336 15.403-45.867 7.765-15.445-7.851-18.517-23.083-9.771-49.152l17.323-52.096c17.195-52.096-5.163-88.576-46.165-90.923-53.675-2.987-86.187 35.243-86.187 35.243s30.293-15.573 45.867-7.765c15.445 7.851 18.432 23.083 9.771 49.152l-17.323 52.096c-17.28 52.096 5.077 88.491 46.165 90.923 53.675 3.029 86.187-35.243 86.187-35.243z"
+                    ></path>
+                    <path
+                      d="M567.509 426.667c0 30.657-24.852 55.509-55.509 55.509-30.657 0-55.509-24.852-55.509-55.509 0-30.657 24.852-55.509 55.509-55.509 30.657 0 55.509 24.852 55.509 55.509z"
+                    ></path>
+                  </svg>
+                  <span class="infoblock-text">
+                    <span>Made using RPG I&amp;I v1.9</span>
+                  </span>
+                </div>
+                <div
+                  class="warningblock-container warningblock-root-class-name"
+                >
+                  <svg viewBox="0 0 1024 1024" class="warningblock-icon">
+                    <path
+                      d="M512 235.136c23.936 0 47.744 15.104 65.877 45.312l252.245 420.437c36.309 60.373 8.277 109.781-62.123 109.781h-512c-70.4 0-98.432-49.451-62.123-109.781l252.245-420.437c18.133-30.208 41.941-45.312 65.877-45.312M512 149.803c-55.296 0-105.899 31.573-139.051 86.656l-252.245 420.523c-33.536 55.851-37.205 115.413-10.027 163.413s80.171 75.605 145.323 75.605h512c65.152 0 118.187-27.563 145.323-75.563s23.509-107.563-10.027-163.413l-252.245-420.437c-33.152-55.211-83.755-86.784-139.051-86.784z"
+                    ></path>
+                    <path
+                      d="M567.467 682.667c0 30.633-24.833 55.467-55.467 55.467-30.633 0-55.467-24.833-55.467-55.467 0-30.633 24.833-55.467 55.467-55.467 30.633 0 55.467 24.833 55.467 55.467z"
+                    ></path>
+                    <path
+                      d="M576 426.667c0-35.413-28.629-64-64-64s-64 28.587-64 64c0 8.491 1.749 16.597 4.736 23.979 23.637 58.709 59.264 146.688 59.264 146.688s35.627-87.979 59.349-146.688c2.901-7.381 4.651-15.488 4.651-23.979z"
+                    ></path>
+                  </svg>
+                  <span class="warningblock-text">
+                    <span>
+                      There's a bug in Unreal 5.1, which can crash the Editor.
+                      To prevent it do NOT re-order the variables after adding
+                      them inside AC_InventoryCore.
+                    </span>
+                  </span>
+                </div>
+                <div class="tutorial-newinventorypanel-container07">
+                  <span class="tutorial-newinventorypanel-text02">
+                    Tutorial Result Example
+                  </span>
+                  <img
+                    alt="image"
+                    src="https://lh5.googleusercontent.com/n0r-ouRYvYNgvPzcL6pXtUsyzU9i2e_Cz2S28HqzBngWu-9aEOtYxHe6k1aRhmffDgk=w2400"
+                    loading="lazy"
+                    class="tutorial-newinventorypanel-image"
+                  />
+                </div>
+              </div>
+              <div class="tutorial-newinventorypanel-container08">
+                <div class="tutorial-newinventorypanel-container09">
+                  <div class="tutorial-newinventorypanel-container10">
+                    <span class="tutorial-newinventorypanel-text03">
+                      1. Open E_InventoryPanels, add new enum value = P5
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh6.googleusercontent.com/-81l7luNJxPvEEGEnEfPRtrYmkehZQ3Pk2ihdIZ30WaADWEB4K1A75k5HeE0Z7cGO64=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image01 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-newinventorypanel-container11">
+                    <span class="tutorial-newinventorypanel-text04">
+                      2. Open AC_InventoryCore, duplicate InventoryP4 variable
+                      (array), re-name it to 'InventoryP5'. Create new variable:
+                      Integer, 'InventorySizeP5'. Mark it as Editable and Set
+                      Replication to 'RepNotify'
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh5.googleusercontent.com/VYwgWQ6VihlIGU_DoqCSASynXPKrQ_9UqUIjYaf4_HrpN7k62aUeKHEa0niQ5N7U3zQ=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image02 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-newinventorypanel-container12">
+                  <div class="tutorial-newinventorypanel-container13">
+                    <span class="tutorial-newinventorypanel-text05">
+                      3. Go to newly created 'On Rep Inventory Size P5' function
+                      and add the same nodes as in the image
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh6.googleusercontent.com/rwOhk0ngTRwx7AwbsjXPWhRlMlVCTXcXTNOPpJMnsCNUbwNXJ8ELxd5FLLj1uLKMoy8=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image03 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-newinventorypanel-container14">
+                    <span class="tutorial-newinventorypanel-text06">
+                      4. Go to 'Apply Changes to Inventory Array' and add new
+                      connection to 'Inventory P5' array
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh6.googleusercontent.com/1K4XBzz1g4nqCWB07-M7NW9OFf4Tyoyzyaj9jpL8MSSLrrlIrpmT0E-xw_oLcoCasgE=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image04 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-newinventorypanel-container15">
+                  <div class="tutorial-newinventorypanel-container16">
+                    <span class="tutorial-newinventorypanel-text07">
+                      5. Add highlighted nodes inside 'Get Combined Inventories'
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh3.googleusercontent.com/eQ9uOav56wb1iQ-7bQERL3zW2jIHKqeCpl0xYpXlTYQ7HoFSsvn2Qv2qUEYsHGq2lPw=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image05 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-newinventorypanel-container17">
+                    <span class="tutorial-newinventorypanel-text08">
+                      6. Add InventoryP5 and InventorySizeP5 inside 'Get
+                      Inventory and Size'
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh3.googleusercontent.com/zZuAs9oYRrZkBisJWgY2ncKgHvb6pWEnFGrpqL9-V7K70JaX7Hl8XoDsWjtGoLWxJio=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image06 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-newinventorypanel-container18">
+                  <div class="tutorial-newinventorypanel-container19">
+                    <span class="tutorial-newinventorypanel-text09">
+                      7. Open AC_PlayerInventory / Class Defaults, add P5 to the
+                      Panels to Use. Make sure the Inventory Size P5 is set
+                      properly
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh3.googleusercontent.com/UjvYkxI03-yhP_e9WEpeo3RyLy9qPWjjjfBnQKwCsoyUrjphGEwzceHXYsHMyap5Ees=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image07 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-newinventorypanel-container20">
+                    <span class="tutorial-newinventorypanel-text10">
+                      8. Open WB_PlayerInventory, duplicate ButtonPanel and
+                      UniformGrid, re-name them. Change Button Panel to P5 and
+                      Style ON/OFF
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh5.googleusercontent.com/R34KGAg9SKIJYjl4XgGQvFzagq5bqijOlRsAhh5lAzGUgkiEVcKsX_JB2M1k-34mYco=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image08 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-newinventorypanel-container21">
+                  <div class="tutorial-newinventorypanel-container22">
+                    <span class="tutorial-newinventorypanel-text11">
+                      9. Duplicate Create Inventory event, re-name it to 'Create
+                      Inventory P5'. Swap Uniform Grid to Inventory UG5
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh4.googleusercontent.com/8GipZ3d_MxW_YjUfPdGxzl8iUG24u08t6F2K9uoBfStg1UnfZ5KmtW-3zwGbjvEJGEg=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image09 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-newinventorypanel-container23">
+                    <span class="tutorial-newinventorypanel-text12">
+                      10. On Event Construct add the newly created event 'Create
+                      Inventory P5'
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh5.googleusercontent.com/ESNdR3RHTqv-UuqYd135FGMqTfFNW-sxRVwDlvYsc2nOYBz4z0Tjk5ZIJt2Ng_cJFXA=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image10 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-newinventorypanel-container24">
+                  <div class="tutorial-newinventorypanel-container25">
+                    <span class="tutorial-newinventorypanel-text13">
+                      11. On Event Set Active Panel pin ButtonPanel5
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh4.googleusercontent.com/TLf6pmxuuLD__FNsEv1hOEcnfOe_PUUU02By9lIrGH4qHEGAs3xSVNFPYwQShmPTLfc=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image11 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-newinventorypanel-container26">
+                    <span class="tutorial-newinventorypanel-text14">
+                      12. On Event Refresh Inventory add highlighted node on P5
+                      switch
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh5.googleusercontent.com/BM7ykjgG-0bjOPTabTs-eGtG38azPlVSZQ0_I5USVCNDBTkIZr8gQdpVcVVWFMursnY=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image12 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-newinventorypanel-container27">
+                  <div class="tutorial-newinventorypanel-container28">
+                    <span class="tutorial-newinventorypanel-text15">
+                      13. Inside Get Active Panel add a check for Inventory UG5
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh4.googleusercontent.com/BJmEbrNmfI5UbX9nnyQbm_cApKVI-3_9E7mkVYCX-0w1BuEm6_rOGN9e1p0waIzjKoU=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image13 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-newinventorypanel-container29">
+                    <span class="tutorial-newinventorypanel-text16">
+                      14. Inside Get Uniform Grid from Panel pin Inventory UG5
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh6.googleusercontent.com/V3pZQWzSjyHtL7c-qVslNmPKjnBDj7BR5yh3A3lvRsb--e73Kr3gryJhOGnsyhckzEs=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image14 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-newinventorypanel-container30">
+                  <div class="tutorial-newinventorypanel-container31">
+                    <span class="tutorial-newinventorypanel-text17">
+                      15. Inside Switch Inventory Panel pin Button Panel 5
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh4.googleusercontent.com/nZKMTK_tDu1wOPgnc2kL21TlACfXm9X89kbKxVWZu3WPhptVvi8T7qEnjeguQT0maPQ=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image15 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-newinventorypanel-container32">
+                    <span class="tutorial-newinventorypanel-text18">
+                      16. Inside Switch To Next Inventory Panel, re-order and
+                      add highlighted nodes
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh3.googleusercontent.com/Fr8Y550LOKbFVKBQfhuLgn-LYB9x9rhSY_RuKxelmTCYKsK25Yux5D43ZyKFiq5FHyg=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image16 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-newinventorypanel-container33">
+                  <div class="tutorial-newinventorypanel-container34">
+                    <span class="tutorial-newinventorypanel-text19">
+                      17. Inside Set Panel Title, promote P5 to a new (editable)
+                      variable and change the text value
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh4.googleusercontent.com/qaIAzzB2E6NHadEGGjGMLV2EB2ARZ402sbTjk35G8eKG5m0V8ZdDRA6R3l_mzAZmKUo=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image17 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-newinventorypanel-container35">
+                    <span class="tutorial-newinventorypanel-text20">
+                      18. Now make sure each Item that suppose to go inside that
+                      panel has it assigned inside their Item Class
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh3.googleusercontent.com/YzDapBe3LTbh5MWtHDxZnQ1ln15C7xjyZgpEKTlp9EDaXT0FZLetu4tV1Ax2gxvTpoM=w2400"
+                      loading="lazy"
+                      class="tutorial-newinventorypanel-image18 image-zoomable"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tutorial-newinventorypanel-footer-container">
+          <div class="tutorial-newinventorypanel-footer">
+            <div class="tutorial-newinventorypanel-copyright-container">
+              <svg
+                viewBox="0 0 1024 1024"
+                class="tutorial-newinventorypanel-icon10"
+              >
+                <path
+                  d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
+                ></path>
+              </svg>
+              <span class="tutorial-newinventorypanel-link">
+                <span class="tutorial-newinventorypanel-text21">shq300</span>
+                <span class="Anchor">, 2022</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div id="myModal" class="tutorial-newinventorypanel-container36 modal">
+          <img
+            id="img01"
+            alt="image"
+            src="https://lh5.googleusercontent.com/kEi3Gf931AgTDEnAGjV3ElyzsSGpe_oWQQTZewIJciZ45o8FISIUEkGmdCraOvETYqk=w2400"
+            class="modal-content"
+          />
+          <span class="close">X</span>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <script>
+        function showDiv(toggle){
+      var x = document.getElementById(toggle);
+      if (x.style.display === "none") {
+      x.style.display = "block";
+      } else {
+      x.style.display = "none";
+      }}
+      // create references to the modal...
+      var modal = document.getElementById('myModal');
+      modal.onclick = function(){
+      modal.style.display = "none";
+      }
+      // to all images -- note I'm using a class!
+      var images = document.getElementsByClassName('image-zoomable');
+      // the image in the modal
+      var modalImg = document.getElementById("img01");
+      // Go through all of the images with our custom class
+      for (var i = 0; i < images.length; i++) {
+       var img=images[i]; // and attach our click listener for this image.
+        img.onclick=function(evt) {
+        modal.style.display="block" ;
+        modalImg.src=this.src;
+        }}
+        var span=document.getElementsByClassName("close")[0];
+        span.onclick=function() { modal.style.display="none" ; }
+    </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>
