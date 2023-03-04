@@ -40,7 +40,9 @@
 }
 
 
-.tutorialnewequipmentslot-container {
+
+
+.tutorial-new-crafting-tab-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -48,7 +50,7 @@
   align-items: center;
   flex-direction: column;
 }
-.tutorialnewequipmentslot-navbar-interactive {
+.tutorial-new-crafting-tab-navbar-interactive {
   top: 0;
   width: 100%;
   display: flex;
@@ -64,24 +66,24 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.tutorialnewequipmentslot-icon {
+.tutorial-new-crafting-tab-icon {
   width: 64px;
   height: auto;
   margin-right: var(--dl-space-space-tenunits);
 }
-.tutorialnewequipmentslot-desktop-menu {
+.tutorial-new-crafting-tab-desktop-menu {
   flex: 1;
   width: auto;
   display: flex;
   justify-content: flex-start;
 }
-.tutorialnewequipmentslot-nav {
+.tutorial-new-crafting-tab-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.tutorialnewequipmentslot-container01 {
+.tutorial-new-crafting-tab-container01 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -89,15 +91,15 @@
   align-items: center;
   justify-content: center;
 }
-.tutorialnewequipmentslot-icon02 {
+.tutorial-new-crafting-tab-icon02 {
   width: 32px;
   height: auto;
 }
-.tutorialnewequipmentslot-navlink {
+.tutorial-new-crafting-tab-navlink {
   margin-left: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.tutorialnewequipmentslot-cta-btn {
+.tutorial-new-crafting-tab-cta-btn {
   color: var(--dl-color-gray-white);
   width: auto;
   transition: 0.3s;
@@ -109,30 +111,30 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.tutorialnewequipmentslot-cta-btn:hover {
+.tutorial-new-crafting-tab-cta-btn:hover {
   color: #0c0c0c;
   background-color: #dcdcdc;
 }
-.tutorialnewequipmentslot-burger-menu {
+.tutorial-new-crafting-tab-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.tutorialnewequipmentslot-icon04 {
+.tutorial-new-crafting-tab-icon04 {
   width: 16px;
   height: 16px;
   transition: 0.3s;
 }
-.tutorialnewequipmentslot-icon04:focus {
+.tutorial-new-crafting-tab-icon04:focus {
   fill: #D9D9D9;
 }
-.tutorialnewequipmentslot-icon04:hover {
+.tutorial-new-crafting-tab-icon04:hover {
   fill: #D9D9D9;
 }
-.tutorialnewequipmentslot-icon04:active {
+.tutorial-new-crafting-tab-icon04:active {
   fill: #D9D9D9;
 }
-.tutorialnewequipmentslot-mobile-menu {
+.tutorial-new-crafting-tab-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -147,45 +149,45 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.tutorialnewequipmentslot-nav1 {
+.tutorial-new-crafting-tab-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.tutorialnewequipmentslot-container02 {
+.tutorial-new-crafting-tab-container02 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 48px;
   justify-content: space-between;
 }
-.tutorialnewequipmentslot-menu-close {
+.tutorial-new-crafting-tab-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.tutorialnewequipmentslot-icon06 {
+.tutorial-new-crafting-tab-icon06 {
   width: 16px;
   height: 16px;
 }
-.tutorialnewequipmentslot-nav2 {
+.tutorial-new-crafting-tab-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.tutorialnewequipmentslot-navlink1 {
+.tutorial-new-crafting-tab-navlink1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.tutorialnewequipmentslot-navlink2 {
+.tutorial-new-crafting-tab-navlink2 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.tutorialnewequipmentslot-text {
+.tutorial-new-crafting-tab-text {
   margin-bottom: var(--dl-space-space-unit);
 }
-.tutorialnewequipmentslot-container03 {
+.tutorial-new-crafting-tab-container03 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -196,7 +198,7 @@
   justify-content: space-between;
   background-image: linear-gradient(90deg, rgb(229, 229, 229) 0.00%,rgb(215, 214, 214) 100.00%);
 }
-.tutorialnewequipmentslot-separator {
+.tutorial-new-crafting-tab-separator {
   width: 100%;
   display: flex;
   align-self: flex-start;
@@ -204,7 +206,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewequipmentslot-container04 {
+.tutorial-new-crafting-tab-container04 {
   flex: 0 0 auto;
   height: 100%;
   display: flex;
@@ -214,7 +216,7 @@
   justify-content: center;
   background-image: linear-gradient(90deg, rgb(185, 221, 41) 0.00%,rgb(111, 185, 53) 100.00%);
 }
-.tutorialnewequipmentslot-icon08 {
+.tutorial-new-crafting-tab-icon08 {
   fill: #ffffff;
   width: 100px;
   align-self: center;
@@ -222,7 +224,7 @@
   margin-right: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.tutorialnewequipmentslot-text01 {
+.tutorial-new-crafting-tab-text01 {
   color: rgb(255, 255, 255);
   width: auto;
   font-size: 32px;
@@ -235,7 +237,7 @@
   text-transform: capitalize;
   text-decoration: none;
 }
-.tutorialnewequipmentslot-container05 {
+.tutorial-new-crafting-tab-container05 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -255,7 +257,7 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.tutorialnewequipmentslot-container06 {
+.tutorial-new-crafting-tab-container06 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -267,7 +269,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.tutorialnewequipmentslot-container07 {
+.tutorial-new-crafting-tab-container07 {
   flex: 1;
   width: 80%;
   height: auto;
@@ -280,17 +282,17 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewequipmentslot-text02 {
+.tutorial-new-crafting-tab-text04 {
   font-size: 32px;
   align-self: center;
   font-style: normal;
   font-family: Raleway;
   font-weight: 700;
   line-height: 1.55;
-  margin-bottom: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.tutorialnewequipmentslot-text03 {
+.tutorial-new-crafting-tab-text05 {
   font-size: 32px;
   align-self: center;
   font-style: normal;
@@ -300,7 +302,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.tutorialnewequipmentslot-image {
+.tutorial-new-crafting-tab-image {
   flex: 1;
   width: 100%;
   height: auto;
@@ -308,7 +310,7 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius24);
 }
-.tutorialnewequipmentslot-container08 {
+.tutorial-new-crafting-tab-container08 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -318,7 +320,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewequipmentslot-container09 {
+.tutorial-new-crafting-tab-container09 {
   width: 100%;
   height: auto;
   display: flex;
@@ -327,7 +329,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewequipmentslot-container10 {
+.tutorial-new-crafting-tab-container10 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -338,7 +340,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewequipmentslot-text04 {
+.tutorial-new-crafting-tab-text06 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -351,13 +353,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image01 {
+.tutorial-new-crafting-tab-image01 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container11 {
+.tutorial-new-crafting-tab-container11 {
   flex: 1;
   width: auto;
   height: auto;
@@ -371,7 +373,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewequipmentslot-text05 {
+.tutorial-new-crafting-tab-text07 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -385,13 +387,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image02 {
+.tutorial-new-crafting-tab-image02 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container12 {
+.tutorial-new-crafting-tab-container12 {
   width: 100%;
   height: auto;
   display: flex;
@@ -400,7 +402,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewequipmentslot-container13 {
+.tutorial-new-crafting-tab-container13 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -411,7 +413,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewequipmentslot-text14 {
+.tutorial-new-crafting-tab-text08 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -424,13 +426,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image03 {
+.tutorial-new-crafting-tab-image03 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container14 {
+.tutorial-new-crafting-tab-container14 {
   flex: 1;
   width: auto;
   height: auto;
@@ -444,7 +446,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewequipmentslot-text15 {
+.tutorial-new-crafting-tab-text09 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -458,107 +460,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image04 {
+.tutorial-new-crafting-tab-image04 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container15 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: stretch;
-  justify-content: center;
-}
-.tutorialnewequipmentslot-container16 {
-  flex: 1;
-  display: flex;
-  align-self: center;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorialnewequipmentslot-text16 {
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorialnewequipmentslot-image05 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorialnewequipmentslot-container17 {
-  flex: 1;
-  width: 200px;
-  height: 100px;
-  display: flex;
-  align-self: center;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorialnewequipmentslot-container18 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-self: stretch;
-  margin-top: var(--dl-space-space-unit);
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-unit);
-  border-color: var(--dl-color-gray-black);
-  border-style: double;
-  border-width: 2px;
-  padding-left: var(--dl-space-space-tenunits);
-  margin-bottom: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-tenunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-unit);
-  justify-content: flex-start;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
-}
-.tutorialnewequipmentslot-text17 {
-  font-size: 32px;
-  align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 700;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-halfunit);
-  text-decoration: none;
-}
-.tutorialnewequipmentslot-text18 {
-  font-size: 32px;
-  align-self: center;
-  font-style: normal;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  text-decoration: none;
-}
-.tutorialnewequipmentslot-container19 {
+.tutorial-new-crafting-tab-container15 {
   width: 100%;
   height: auto;
   display: flex;
@@ -567,7 +475,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewequipmentslot-container20 {
+.tutorial-new-crafting-tab-container16 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -578,7 +486,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewequipmentslot-text19 {
+.tutorial-new-crafting-tab-text10 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -591,13 +499,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image06 {
+.tutorial-new-crafting-tab-image05 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container21 {
+.tutorial-new-crafting-tab-container17 {
   flex: 1;
   width: auto;
   height: auto;
@@ -611,7 +519,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewequipmentslot-text20 {
+.tutorial-new-crafting-tab-text11 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -625,13 +533,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image07 {
+.tutorial-new-crafting-tab-image06 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container22 {
+.tutorial-new-crafting-tab-container18 {
   width: 100%;
   height: auto;
   display: flex;
@@ -640,7 +548,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewequipmentslot-container23 {
+.tutorial-new-crafting-tab-container19 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -651,7 +559,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewequipmentslot-text21 {
+.tutorial-new-crafting-tab-text12 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -664,13 +572,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image08 {
+.tutorial-new-crafting-tab-image07 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container24 {
+.tutorial-new-crafting-tab-container20 {
   flex: 1;
   width: auto;
   height: auto;
@@ -684,7 +592,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewequipmentslot-text22 {
+.tutorial-new-crafting-tab-text13 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -698,13 +606,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image09 {
+.tutorial-new-crafting-tab-image08 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container25 {
+.tutorial-new-crafting-tab-container21 {
   width: 100%;
   height: auto;
   display: flex;
@@ -713,7 +621,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewequipmentslot-container26 {
+.tutorial-new-crafting-tab-container22 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -724,7 +632,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewequipmentslot-text23 {
+.tutorial-new-crafting-tab-text14 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -737,13 +645,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image10 {
+.tutorial-new-crafting-tab-image09 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container27 {
+.tutorial-new-crafting-tab-container23 {
   flex: 1;
   width: auto;
   height: auto;
@@ -757,7 +665,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewequipmentslot-text24 {
+.tutorial-new-crafting-tab-text15 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -771,13 +679,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image11 {
+.tutorial-new-crafting-tab-image10 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container28 {
+.tutorial-new-crafting-tab-container24 {
   width: 100%;
   height: auto;
   display: flex;
@@ -786,7 +694,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewequipmentslot-container29 {
+.tutorial-new-crafting-tab-container25 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -797,7 +705,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewequipmentslot-text25 {
+.tutorial-new-crafting-tab-text16 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -810,13 +718,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image12 {
+.tutorial-new-crafting-tab-image11 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container30 {
+.tutorial-new-crafting-tab-container26 {
   flex: 1;
   width: auto;
   height: auto;
@@ -830,7 +738,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewequipmentslot-text26 {
+.tutorial-new-crafting-tab-text17 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -844,13 +752,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image13 {
+.tutorial-new-crafting-tab-image12 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container31 {
+.tutorial-new-crafting-tab-container27 {
   width: 100%;
   height: auto;
   display: flex;
@@ -859,7 +767,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewequipmentslot-container32 {
+.tutorial-new-crafting-tab-container28 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -870,7 +778,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewequipmentslot-text27 {
+.tutorial-new-crafting-tab-text18 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -883,96 +791,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image14 {
+.tutorial-new-crafting-tab-image13 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container33 {
-  flex: 1;
-  width: 200px;
-  height: 100px;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorialnewequipmentslot-container34 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-self: center;
-  margin-top: var(--dl-space-space-unit);
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-unit);
-  border-color: var(--dl-color-gray-black);
-  border-style: double;
-  border-width: 2px;
-  padding-left: var(--dl-space-space-tenunits);
-  margin-bottom: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-tenunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-unit);
-  justify-content: flex-start;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
-}
-.tutorialnewequipmentslot-text28 {
-  font-size: 32px;
-  align-self: center;
-  font-style: normal;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  text-decoration: none;
-}
-.tutorialnewequipmentslot-container35 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.tutorialnewequipmentslot-container36 {
-  flex: 1;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorialnewequipmentslot-text29 {
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorialnewequipmentslot-image15 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorialnewequipmentslot-container37 {
+.tutorial-new-crafting-tab-container29 {
   flex: 1;
   width: auto;
   height: auto;
@@ -986,7 +811,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewequipmentslot-text30 {
+.tutorial-new-crafting-tab-text19 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -1000,284 +825,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewequipmentslot-image16 {
+.tutorial-new-crafting-tab-image14 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewequipmentslot-container38 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.tutorialnewequipmentslot-container39 {
-  flex: 1;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorialnewequipmentslot-text31 {
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorialnewequipmentslot-image17 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorialnewequipmentslot-container40 {
-  flex: 1;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.tutorialnewequipmentslot-text32 {
-  height: auto;
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorialnewequipmentslot-image18 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorialnewequipmentslot-container41 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.tutorialnewequipmentslot-container42 {
-  flex: 1;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorialnewequipmentslot-text33 {
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorialnewequipmentslot-image19 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorialnewequipmentslot-container43 {
-  flex: 1;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.tutorialnewequipmentslot-text34 {
-  height: auto;
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorialnewequipmentslot-image20 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorialnewequipmentslot-container44 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.tutorialnewequipmentslot-container45 {
-  flex: 1;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorialnewequipmentslot-text35 {
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorialnewequipmentslot-image21 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorialnewequipmentslot-container46 {
-  flex: 1;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.tutorialnewequipmentslot-text36 {
-  height: auto;
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorialnewequipmentslot-image22 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorialnewequipmentslot-container47 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.tutorialnewequipmentslot-container48 {
-  flex: 1;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorialnewequipmentslot-text37 {
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorialnewequipmentslot-image23 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorialnewequipmentslot-container49 {
-  flex: 1;
-  width: 200px;
-  height: 100px;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorialnewequipmentslot-footer-container {
+.tutorial-new-crafting-tab-footer-container {
   width: 100%;
   display: flex;
   align-items: center;
@@ -1285,7 +839,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.tutorialnewequipmentslot-footer {
+.tutorial-new-crafting-tab-footer {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -1297,17 +851,17 @@
   padding-bottom: var(--dl-space-space-tripleunit);
   justify-content: space-between;
 }
-.tutorialnewequipmentslot-copyright-container {
+.tutorial-new-crafting-tab-copyright-container {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.tutorialnewequipmentslot-icon10 {
+.tutorial-new-crafting-tab-icon10 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.tutorialnewequipmentslot-link {
+.tutorial-new-crafting-tab-link {
   font-size: 18px;
   font-style: normal;
   font-family: Raleway;
@@ -1315,32 +869,32 @@
   line-height: 1.55;
   text-decoration: none;
 }
-.tutorialnewequipmentslot-text38 {
+.tutorial-new-crafting-tab-text20 {
   text-transform: lowercase;
 }
-.tutorialnewequipmentslot-container50 {
+.tutorial-new-crafting-tab-container30 {
   display: none;
 }
 @media(max-width: 1200px) {
-  .tutorialnewequipmentslot-navbar-interactive {
+  .tutorial-new-crafting-tab-navbar-interactive {
     padding-left: var(--dl-space-space-tenunits);
     padding-right: var(--dl-space-space-tenunits);
   }
-  .tutorialnewequipmentslot-icon {
+  .tutorial-new-crafting-tab-icon {
     margin-right: var(--dl-space-space-fiveunits);
   }
 }
 @media(max-width: 991px) {
-  .tutorialnewequipmentslot-navbar-interactive {
+  .tutorial-new-crafting-tab-navbar-interactive {
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .tutorialnewequipmentslot-icon {
+  .tutorial-new-crafting-tab-icon {
     width: 64px;
     height: auto;
     margin-right: var(--dl-space-space-doubleunit);
   }
-  .tutorialnewequipmentslot-cta-btn {
+  .tutorial-new-crafting-tab-cta-btn {
     color: var(--dl-color-gray-white);
     width: auto;
     align-self: center;
@@ -1348,87 +902,51 @@
     text-decoration: none;
     background-color: var(--dl-color-gray-black);
   }
-  .tutorialnewequipmentslot-separator {
+  .tutorial-new-crafting-tab-separator {
     width: 100%;
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .tutorialnewequipmentslot-container04 {
+  .tutorial-new-crafting-tab-container04 {
     width: auto;
   }
-  .tutorialnewequipmentslot-container09 {
+  .tutorial-new-crafting-tab-container09 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewequipmentslot-container12 {
+  .tutorial-new-crafting-tab-container12 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewequipmentslot-container15 {
+  .tutorial-new-crafting-tab-container15 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewequipmentslot-container19 {
+  .tutorial-new-crafting-tab-container18 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewequipmentslot-container22 {
+  .tutorial-new-crafting-tab-container21 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewequipmentslot-container25 {
+  .tutorial-new-crafting-tab-container24 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewequipmentslot-container28 {
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .tutorialnewequipmentslot-container31 {
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .tutorialnewequipmentslot-container35 {
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .tutorialnewequipmentslot-container38 {
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .tutorialnewequipmentslot-container41 {
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .tutorialnewequipmentslot-container44 {
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .tutorialnewequipmentslot-container47 {
+  .tutorial-new-crafting-tab-container27 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -1436,94 +954,94 @@
   }
 }
 @media(max-width: 890px) {
-  .tutorialnewequipmentslot-navbar-interactive {
+  .tutorial-new-crafting-tab-navbar-interactive {
     padding-top: var(--dl-space-space-unit);
     padding-left: 32px;
     padding-right: 32px;
   }
-  .tutorialnewequipmentslot-icon {
+  .tutorial-new-crafting-tab-icon {
     display: none;
   }
-  .tutorialnewequipmentslot-desktop-menu {
+  .tutorial-new-crafting-tab-desktop-menu {
     display: none;
   }
-  .tutorialnewequipmentslot-burger-menu {
+  .tutorial-new-crafting-tab-burger-menu {
     display: flex;
   }
-  .tutorialnewequipmentslot-icon04 {
+  .tutorial-new-crafting-tab-icon04 {
     width: 64px;
     height: auto;
   }
-  .tutorialnewequipmentslot-mobile-menu {
+  .tutorial-new-crafting-tab-mobile-menu {
     padding-top: var(--dl-space-space-doubleunit);
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
     padding-bottom: var(--dl-space-space-doubleunit);
   }
-  .tutorialnewequipmentslot-container02 {
+  .tutorial-new-crafting-tab-container02 {
     width: 100%;
     align-self: flex-end;
   }
-  .tutorialnewequipmentslot-menu-close {
+  .tutorial-new-crafting-tab-menu-close {
     flex: 1;
     justify-content: flex-end;
   }
-  .tutorialnewequipmentslot-icon06 {
+  .tutorial-new-crafting-tab-icon06 {
     width: 64px;
     height: auto;
   }
-  .tutorialnewequipmentslot-nav2 {
+  .tutorial-new-crafting-tab-nav2 {
     align-self: stretch;
     align-items: center;
     justify-content: flex-start;
   }
-  .tutorialnewequipmentslot-navlink1 {
+  .tutorial-new-crafting-tab-navlink1 {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .tutorialnewequipmentslot-navlink2 {
+  .tutorial-new-crafting-tab-navlink2 {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .tutorialnewequipmentslot-text {
+  .tutorial-new-crafting-tab-text {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .tutorialnewequipmentslot-separator {
+  .tutorial-new-crafting-tab-separator {
     width: 100%;
   }
-  .tutorialnewequipmentslot-container04 {
+  .tutorial-new-crafting-tab-container04 {
     width: auto;
   }
 }
 @media(max-width: 479px) {
-  .tutorialnewequipmentslot-navbar-interactive {
+  .tutorial-new-crafting-tab-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .tutorialnewequipmentslot-cta-btn {
+  .tutorial-new-crafting-tab-cta-btn {
     font-size: 16px;
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .tutorialnewequipmentslot-mobile-menu {
+  .tutorial-new-crafting-tab-mobile-menu {
     padding: 16px;
   }
-  .tutorialnewequipmentslot-container03 {
+  .tutorial-new-crafting-tab-container03 {
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
   }
-  .tutorialnewequipmentslot-separator {
+  .tutorial-new-crafting-tab-separator {
     width: 90%;
     align-self: flex-start;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
   }
-  .tutorialnewequipmentslot-container04 {
+  .tutorial-new-crafting-tab-container04 {
     width: auto;
     height: auto;
   }

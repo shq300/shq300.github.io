@@ -40,52 +40,9 @@
 }
 
 
-.warningblock-container {
-  flex: 1;
-  width: 100%;
-  height: auto;
-  display: flex;
-  padding: var(--dl-space-space-unit);
-  position: relative;
-  align-self: stretch;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  border-color: rgba(193, 20, 20, 0.64);
-  border-style: solid;
-  border-width: 4px;
-  border-radius: 16px;
-  margin-bottom: var(--dl-space-space-unit);
-  flex-direction: row;
-  justify-content: center;
-  background-color: #d6bfbd;
-}
-.warningblock-icon {
-  fill: #cc5c5c;
-  width: 100px;
-  height: auto;
-  margin-top: var(--dl-space-space-doubleunit);
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-doubleunit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-}
-.warningblock-text {
-  width: 100%;
-  height: auto;
-  font-size: 26px;
-  max-width: auto;
-  min-width: auto;
-  font-style: normal;
-  max-height: auto;
-  min-height: auto;
-  text-align: left;
-  font-family: Raleway;
-  font-weight: 700;
-  line-height: 1.55;
-  text-decoration: none;
-}
 
 
-.tutorialnewinventorypanel-container {
+.tutorial-adding-new-equipment-slot-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -93,7 +50,7 @@
   align-items: center;
   flex-direction: column;
 }
-.tutorialnewinventorypanel-navbar-interactive {
+.tutorial-adding-new-equipment-slot-navbar-interactive {
   top: 0;
   width: 100%;
   display: flex;
@@ -109,24 +66,24 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.tutorialnewinventorypanel-icon {
+.tutorial-adding-new-equipment-slot-icon {
   width: 64px;
   height: auto;
   margin-right: var(--dl-space-space-tenunits);
 }
-.tutorialnewinventorypanel-desktop-menu {
+.tutorial-adding-new-equipment-slot-desktop-menu {
   flex: 1;
   width: auto;
   display: flex;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-nav {
+.tutorial-adding-new-equipment-slot-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.tutorialnewinventorypanel-container01 {
+.tutorial-adding-new-equipment-slot-container01 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -134,15 +91,15 @@
   align-items: center;
   justify-content: center;
 }
-.tutorialnewinventorypanel-icon02 {
+.tutorial-adding-new-equipment-slot-icon02 {
   width: 32px;
   height: auto;
 }
-.tutorialnewinventorypanel-navlink {
+.tutorial-adding-new-equipment-slot-navlink {
   margin-left: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.tutorialnewinventorypanel-cta-btn {
+.tutorial-adding-new-equipment-slot-cta-btn {
   color: var(--dl-color-gray-white);
   width: auto;
   transition: 0.3s;
@@ -154,30 +111,30 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.tutorialnewinventorypanel-cta-btn:hover {
+.tutorial-adding-new-equipment-slot-cta-btn:hover {
   color: #0c0c0c;
   background-color: #dcdcdc;
 }
-.tutorialnewinventorypanel-burger-menu {
+.tutorial-adding-new-equipment-slot-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.tutorialnewinventorypanel-icon04 {
+.tutorial-adding-new-equipment-slot-icon04 {
   width: 16px;
   height: 16px;
   transition: 0.3s;
 }
-.tutorialnewinventorypanel-icon04:focus {
+.tutorial-adding-new-equipment-slot-icon04:focus {
   fill: #D9D9D9;
 }
-.tutorialnewinventorypanel-icon04:hover {
+.tutorial-adding-new-equipment-slot-icon04:hover {
   fill: #D9D9D9;
 }
-.tutorialnewinventorypanel-icon04:active {
+.tutorial-adding-new-equipment-slot-icon04:active {
   fill: #D9D9D9;
 }
-.tutorialnewinventorypanel-mobile-menu {
+.tutorial-adding-new-equipment-slot-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -192,45 +149,45 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.tutorialnewinventorypanel-nav1 {
+.tutorial-adding-new-equipment-slot-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.tutorialnewinventorypanel-container02 {
+.tutorial-adding-new-equipment-slot-container02 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 48px;
   justify-content: space-between;
 }
-.tutorialnewinventorypanel-menu-close {
+.tutorial-adding-new-equipment-slot-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.tutorialnewinventorypanel-icon06 {
+.tutorial-adding-new-equipment-slot-icon06 {
   width: 16px;
   height: 16px;
 }
-.tutorialnewinventorypanel-nav2 {
+.tutorial-adding-new-equipment-slot-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.tutorialnewinventorypanel-navlink1 {
+.tutorial-adding-new-equipment-slot-navlink1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.tutorialnewinventorypanel-navlink2 {
+.tutorial-adding-new-equipment-slot-navlink2 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.tutorialnewinventorypanel-text {
+.tutorial-adding-new-equipment-slot-text {
   margin-bottom: var(--dl-space-space-unit);
 }
-.tutorialnewinventorypanel-container03 {
+.tutorial-adding-new-equipment-slot-container03 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -241,7 +198,7 @@
   justify-content: space-between;
   background-image: linear-gradient(90deg, rgb(229, 229, 229) 0.00%,rgb(215, 214, 214) 100.00%);
 }
-.tutorialnewinventorypanel-separator {
+.tutorial-adding-new-equipment-slot-separator {
   width: 100%;
   display: flex;
   align-self: flex-start;
@@ -249,7 +206,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-container04 {
+.tutorial-adding-new-equipment-slot-container04 {
   flex: 0 0 auto;
   height: 100%;
   display: flex;
@@ -259,7 +216,7 @@
   justify-content: center;
   background-image: linear-gradient(90deg, rgb(185, 221, 41) 0.00%,rgb(111, 185, 53) 100.00%);
 }
-.tutorialnewinventorypanel-icon08 {
+.tutorial-adding-new-equipment-slot-icon08 {
   fill: #ffffff;
   width: 100px;
   align-self: center;
@@ -267,7 +224,7 @@
   margin-right: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.tutorialnewinventorypanel-text01 {
+.tutorial-adding-new-equipment-slot-text01 {
   color: rgb(255, 255, 255);
   width: auto;
   font-size: 32px;
@@ -280,7 +237,7 @@
   text-transform: capitalize;
   text-decoration: none;
 }
-.tutorialnewinventorypanel-container05 {
+.tutorial-adding-new-equipment-slot-container05 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -300,7 +257,7 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.tutorialnewinventorypanel-container06 {
+.tutorial-adding-new-equipment-slot-container06 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -312,7 +269,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.tutorialnewinventorypanel-container07 {
+.tutorial-adding-new-equipment-slot-container07 {
   flex: 1;
   width: 80%;
   height: auto;
@@ -325,17 +282,27 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-text02 {
+.tutorial-adding-new-equipment-slot-text02 {
   font-size: 32px;
   align-self: center;
   font-style: normal;
   font-family: Raleway;
   font-weight: 700;
   line-height: 1.55;
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.tutorial-adding-new-equipment-slot-text03 {
+  font-size: 32px;
+  align-self: center;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
   margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.tutorialnewinventorypanel-image {
+.tutorial-adding-new-equipment-slot-image {
   flex: 1;
   width: 100%;
   height: auto;
@@ -343,7 +310,7 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius24);
 }
-.tutorialnewinventorypanel-container08 {
+.tutorial-adding-new-equipment-slot-container08 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -353,7 +320,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-container09 {
+.tutorial-adding-new-equipment-slot-container09 {
   width: 100%;
   height: auto;
   display: flex;
@@ -362,7 +329,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewinventorypanel-container10 {
+.tutorial-adding-new-equipment-slot-container10 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -373,7 +340,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewinventorypanel-text03 {
+.tutorial-adding-new-equipment-slot-text04 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -386,13 +353,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image01 {
+.tutorial-adding-new-equipment-slot-image01 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container11 {
+.tutorial-adding-new-equipment-slot-container11 {
   flex: 1;
   width: auto;
   height: auto;
@@ -406,7 +373,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-text04 {
+.tutorial-adding-new-equipment-slot-text05 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -420,13 +387,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image02 {
+.tutorial-adding-new-equipment-slot-image02 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container12 {
+.tutorial-adding-new-equipment-slot-container12 {
   width: 100%;
   height: auto;
   display: flex;
@@ -435,7 +402,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewinventorypanel-container13 {
+.tutorial-adding-new-equipment-slot-container13 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -446,7 +413,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewinventorypanel-text05 {
+.tutorial-adding-new-equipment-slot-text14 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -459,13 +426,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image03 {
+.tutorial-adding-new-equipment-slot-image03 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container14 {
+.tutorial-adding-new-equipment-slot-container14 {
   flex: 1;
   width: auto;
   height: auto;
@@ -479,7 +446,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-text06 {
+.tutorial-adding-new-equipment-slot-text15 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -493,13 +460,107 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image04 {
+.tutorial-adding-new-equipment-slot-image04 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container15 {
+.tutorial-adding-new-equipment-slot-container15 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: stretch;
+  justify-content: center;
+}
+.tutorial-adding-new-equipment-slot-container16 {
+  flex: 1;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
+.tutorial-adding-new-equipment-slot-text16 {
+  font-size: 22px;
+  align-self: stretch;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: rgba(107, 107, 107, 0.23);
+}
+.tutorial-adding-new-equipment-slot-image05 {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  object-fit: cover;
+}
+.tutorial-adding-new-equipment-slot-container17 {
+  flex: 1;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
+.tutorial-adding-new-equipment-slot-container18 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: stretch;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-style: double;
+  border-width: 2px;
+  padding-left: var(--dl-space-space-tenunits);
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-tenunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.tutorial-adding-new-equipment-slot-text17 {
+  font-size: 32px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.tutorial-adding-new-equipment-slot-text18 {
+  font-size: 32px;
+  align-self: center;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.tutorial-adding-new-equipment-slot-container19 {
   width: 100%;
   height: auto;
   display: flex;
@@ -508,7 +569,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewinventorypanel-container16 {
+.tutorial-adding-new-equipment-slot-container20 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -519,7 +580,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewinventorypanel-text07 {
+.tutorial-adding-new-equipment-slot-text19 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -532,13 +593,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image05 {
+.tutorial-adding-new-equipment-slot-image06 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container17 {
+.tutorial-adding-new-equipment-slot-container21 {
   flex: 1;
   width: auto;
   height: auto;
@@ -552,7 +613,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-text08 {
+.tutorial-adding-new-equipment-slot-text20 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -566,13 +627,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image06 {
+.tutorial-adding-new-equipment-slot-image07 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container18 {
+.tutorial-adding-new-equipment-slot-container22 {
   width: 100%;
   height: auto;
   display: flex;
@@ -581,7 +642,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewinventorypanel-container19 {
+.tutorial-adding-new-equipment-slot-container23 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -592,7 +653,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewinventorypanel-text09 {
+.tutorial-adding-new-equipment-slot-text21 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -605,13 +666,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image07 {
+.tutorial-adding-new-equipment-slot-image08 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container20 {
+.tutorial-adding-new-equipment-slot-container24 {
   flex: 1;
   width: auto;
   height: auto;
@@ -625,7 +686,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-text10 {
+.tutorial-adding-new-equipment-slot-text22 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -639,13 +700,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image08 {
+.tutorial-adding-new-equipment-slot-image09 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container21 {
+.tutorial-adding-new-equipment-slot-container25 {
   width: 100%;
   height: auto;
   display: flex;
@@ -654,7 +715,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewinventorypanel-container22 {
+.tutorial-adding-new-equipment-slot-container26 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -665,7 +726,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewinventorypanel-text11 {
+.tutorial-adding-new-equipment-slot-text23 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -678,13 +739,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image09 {
+.tutorial-adding-new-equipment-slot-image10 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container23 {
+.tutorial-adding-new-equipment-slot-container27 {
   flex: 1;
   width: auto;
   height: auto;
@@ -698,7 +759,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-text12 {
+.tutorial-adding-new-equipment-slot-text24 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -712,13 +773,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image10 {
+.tutorial-adding-new-equipment-slot-image11 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container24 {
+.tutorial-adding-new-equipment-slot-container28 {
   width: 100%;
   height: auto;
   display: flex;
@@ -727,7 +788,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewinventorypanel-container25 {
+.tutorial-adding-new-equipment-slot-container29 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -738,7 +799,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewinventorypanel-text13 {
+.tutorial-adding-new-equipment-slot-text25 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -751,13 +812,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image11 {
+.tutorial-adding-new-equipment-slot-image12 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container26 {
+.tutorial-adding-new-equipment-slot-container30 {
   flex: 1;
   width: auto;
   height: auto;
@@ -771,7 +832,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-text14 {
+.tutorial-adding-new-equipment-slot-text26 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -785,13 +846,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image12 {
+.tutorial-adding-new-equipment-slot-image13 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container27 {
+.tutorial-adding-new-equipment-slot-container31 {
   width: 100%;
   height: auto;
   display: flex;
@@ -800,7 +861,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewinventorypanel-container28 {
+.tutorial-adding-new-equipment-slot-container32 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -811,7 +872,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewinventorypanel-text15 {
+.tutorial-adding-new-equipment-slot-text27 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -824,13 +885,96 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image13 {
+.tutorial-adding-new-equipment-slot-image14 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container29 {
+.tutorial-adding-new-equipment-slot-container33 {
+  flex: 1;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
+.tutorial-adding-new-equipment-slot-container34 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-black);
+  border-style: double;
+  border-width: 2px;
+  padding-left: var(--dl-space-space-tenunits);
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-tenunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.tutorial-adding-new-equipment-slot-text28 {
+  font-size: 32px;
+  align-self: center;
+  font-style: normal;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.tutorial-adding-new-equipment-slot-container35 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.tutorial-adding-new-equipment-slot-container36 {
+  flex: 1;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
+.tutorial-adding-new-equipment-slot-text29 {
+  font-size: 22px;
+  align-self: stretch;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: rgba(107, 107, 107, 0.23);
+}
+.tutorial-adding-new-equipment-slot-image15 {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  object-fit: cover;
+}
+.tutorial-adding-new-equipment-slot-container37 {
   flex: 1;
   width: auto;
   height: auto;
@@ -844,7 +988,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-text16 {
+.tutorial-adding-new-equipment-slot-text30 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -858,13 +1002,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image14 {
+.tutorial-adding-new-equipment-slot-image16 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container30 {
+.tutorial-adding-new-equipment-slot-container38 {
   width: 100%;
   height: auto;
   display: flex;
@@ -873,7 +1017,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewinventorypanel-container31 {
+.tutorial-adding-new-equipment-slot-container39 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -884,7 +1028,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewinventorypanel-text17 {
+.tutorial-adding-new-equipment-slot-text31 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -897,13 +1041,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image15 {
+.tutorial-adding-new-equipment-slot-image17 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container32 {
+.tutorial-adding-new-equipment-slot-container40 {
   flex: 1;
   width: auto;
   height: auto;
@@ -917,7 +1061,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-text18 {
+.tutorial-adding-new-equipment-slot-text32 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -931,13 +1075,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image16 {
+.tutorial-adding-new-equipment-slot-image18 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container33 {
+.tutorial-adding-new-equipment-slot-container41 {
   width: 100%;
   height: auto;
   display: flex;
@@ -946,7 +1090,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialnewinventorypanel-container34 {
+.tutorial-adding-new-equipment-slot-container42 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -957,7 +1101,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialnewinventorypanel-text19 {
+.tutorial-adding-new-equipment-slot-text33 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -970,13 +1114,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image17 {
+.tutorial-adding-new-equipment-slot-image19 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-container35 {
+.tutorial-adding-new-equipment-slot-container43 {
   flex: 1;
   width: auto;
   height: auto;
@@ -990,7 +1134,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialnewinventorypanel-text20 {
+.tutorial-adding-new-equipment-slot-text34 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -1004,13 +1148,138 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialnewinventorypanel-image18 {
+.tutorial-adding-new-equipment-slot-image20 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialnewinventorypanel-footer-container {
+.tutorial-adding-new-equipment-slot-container44 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.tutorial-adding-new-equipment-slot-container45 {
+  flex: 1;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
+.tutorial-adding-new-equipment-slot-text35 {
+  font-size: 22px;
+  align-self: stretch;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: rgba(107, 107, 107, 0.23);
+}
+.tutorial-adding-new-equipment-slot-image21 {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  object-fit: cover;
+}
+.tutorial-adding-new-equipment-slot-container46 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.tutorial-adding-new-equipment-slot-text36 {
+  height: auto;
+  font-size: 22px;
+  align-self: stretch;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: rgba(107, 107, 107, 0.23);
+}
+.tutorial-adding-new-equipment-slot-image22 {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  object-fit: cover;
+}
+.tutorial-adding-new-equipment-slot-container47 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.tutorial-adding-new-equipment-slot-container48 {
+  flex: 1;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
+.tutorial-adding-new-equipment-slot-text37 {
+  font-size: 22px;
+  align-self: stretch;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: rgba(107, 107, 107, 0.23);
+}
+.tutorial-adding-new-equipment-slot-image23 {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  object-fit: cover;
+}
+.tutorial-adding-new-equipment-slot-container49 {
+  flex: 1;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
+.tutorial-adding-new-equipment-slot-footer-container {
   width: 100%;
   display: flex;
   align-items: center;
@@ -1018,7 +1287,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.tutorialnewinventorypanel-footer {
+.tutorial-adding-new-equipment-slot-footer {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -1030,17 +1299,17 @@
   padding-bottom: var(--dl-space-space-tripleunit);
   justify-content: space-between;
 }
-.tutorialnewinventorypanel-copyright-container {
+.tutorial-adding-new-equipment-slot-copyright-container {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.tutorialnewinventorypanel-icon10 {
+.tutorial-adding-new-equipment-slot-icon10 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.tutorialnewinventorypanel-link {
+.tutorial-adding-new-equipment-slot-link {
   font-size: 18px;
   font-style: normal;
   font-family: Raleway;
@@ -1048,32 +1317,32 @@
   line-height: 1.55;
   text-decoration: none;
 }
-.tutorialnewinventorypanel-text21 {
+.tutorial-adding-new-equipment-slot-text38 {
   text-transform: lowercase;
 }
-.tutorialnewinventorypanel-container36 {
+.tutorial-adding-new-equipment-slot-container50 {
   display: none;
 }
 @media(max-width: 1200px) {
-  .tutorialnewinventorypanel-navbar-interactive {
+  .tutorial-adding-new-equipment-slot-navbar-interactive {
     padding-left: var(--dl-space-space-tenunits);
     padding-right: var(--dl-space-space-tenunits);
   }
-  .tutorialnewinventorypanel-icon {
+  .tutorial-adding-new-equipment-slot-icon {
     margin-right: var(--dl-space-space-fiveunits);
   }
 }
 @media(max-width: 991px) {
-  .tutorialnewinventorypanel-navbar-interactive {
+  .tutorial-adding-new-equipment-slot-navbar-interactive {
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .tutorialnewinventorypanel-icon {
+  .tutorial-adding-new-equipment-slot-icon {
     width: 64px;
     height: auto;
     margin-right: var(--dl-space-space-doubleunit);
   }
-  .tutorialnewinventorypanel-cta-btn {
+  .tutorial-adding-new-equipment-slot-cta-btn {
     color: var(--dl-color-gray-white);
     width: auto;
     align-self: center;
@@ -1081,63 +1350,87 @@
     text-decoration: none;
     background-color: var(--dl-color-gray-black);
   }
-  .tutorialnewinventorypanel-separator {
+  .tutorial-adding-new-equipment-slot-separator {
     width: 100%;
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .tutorialnewinventorypanel-container04 {
+  .tutorial-adding-new-equipment-slot-container04 {
     width: auto;
   }
-  .tutorialnewinventorypanel-container09 {
+  .tutorial-adding-new-equipment-slot-container09 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewinventorypanel-container12 {
+  .tutorial-adding-new-equipment-slot-container12 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewinventorypanel-container15 {
+  .tutorial-adding-new-equipment-slot-container15 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewinventorypanel-container18 {
+  .tutorial-adding-new-equipment-slot-container19 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewinventorypanel-container21 {
+  .tutorial-adding-new-equipment-slot-container22 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewinventorypanel-container24 {
+  .tutorial-adding-new-equipment-slot-container25 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewinventorypanel-container27 {
+  .tutorial-adding-new-equipment-slot-container28 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewinventorypanel-container30 {
+  .tutorial-adding-new-equipment-slot-container31 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorialnewinventorypanel-container33 {
+  .tutorial-adding-new-equipment-slot-container35 {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .tutorial-adding-new-equipment-slot-container38 {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .tutorial-adding-new-equipment-slot-container41 {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .tutorial-adding-new-equipment-slot-container44 {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .tutorial-adding-new-equipment-slot-container47 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -1145,94 +1438,94 @@
   }
 }
 @media(max-width: 890px) {
-  .tutorialnewinventorypanel-navbar-interactive {
+  .tutorial-adding-new-equipment-slot-navbar-interactive {
     padding-top: var(--dl-space-space-unit);
     padding-left: 32px;
     padding-right: 32px;
   }
-  .tutorialnewinventorypanel-icon {
+  .tutorial-adding-new-equipment-slot-icon {
     display: none;
   }
-  .tutorialnewinventorypanel-desktop-menu {
+  .tutorial-adding-new-equipment-slot-desktop-menu {
     display: none;
   }
-  .tutorialnewinventorypanel-burger-menu {
+  .tutorial-adding-new-equipment-slot-burger-menu {
     display: flex;
   }
-  .tutorialnewinventorypanel-icon04 {
+  .tutorial-adding-new-equipment-slot-icon04 {
     width: 64px;
     height: auto;
   }
-  .tutorialnewinventorypanel-mobile-menu {
+  .tutorial-adding-new-equipment-slot-mobile-menu {
     padding-top: var(--dl-space-space-doubleunit);
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
     padding-bottom: var(--dl-space-space-doubleunit);
   }
-  .tutorialnewinventorypanel-container02 {
+  .tutorial-adding-new-equipment-slot-container02 {
     width: 100%;
     align-self: flex-end;
   }
-  .tutorialnewinventorypanel-menu-close {
+  .tutorial-adding-new-equipment-slot-menu-close {
     flex: 1;
     justify-content: flex-end;
   }
-  .tutorialnewinventorypanel-icon06 {
+  .tutorial-adding-new-equipment-slot-icon06 {
     width: 64px;
     height: auto;
   }
-  .tutorialnewinventorypanel-nav2 {
+  .tutorial-adding-new-equipment-slot-nav2 {
     align-self: stretch;
     align-items: center;
     justify-content: flex-start;
   }
-  .tutorialnewinventorypanel-navlink1 {
+  .tutorial-adding-new-equipment-slot-navlink1 {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .tutorialnewinventorypanel-navlink2 {
+  .tutorial-adding-new-equipment-slot-navlink2 {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .tutorialnewinventorypanel-text {
+  .tutorial-adding-new-equipment-slot-text {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .tutorialnewinventorypanel-separator {
+  .tutorial-adding-new-equipment-slot-separator {
     width: 100%;
   }
-  .tutorialnewinventorypanel-container04 {
+  .tutorial-adding-new-equipment-slot-container04 {
     width: auto;
   }
 }
 @media(max-width: 479px) {
-  .tutorialnewinventorypanel-navbar-interactive {
+  .tutorial-adding-new-equipment-slot-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .tutorialnewinventorypanel-cta-btn {
+  .tutorial-adding-new-equipment-slot-cta-btn {
     font-size: 16px;
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .tutorialnewinventorypanel-mobile-menu {
+  .tutorial-adding-new-equipment-slot-mobile-menu {
     padding: 16px;
   }
-  .tutorialnewinventorypanel-container03 {
+  .tutorial-adding-new-equipment-slot-container03 {
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
   }
-  .tutorialnewinventorypanel-separator {
+  .tutorial-adding-new-equipment-slot-separator {
     width: 90%;
     align-self: flex-start;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
   }
-  .tutorialnewinventorypanel-container04 {
+  .tutorial-adding-new-equipment-slot-container04 {
     width: auto;
     height: auto;
   }

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tutorial-New-Crafting-Tab - RPG Inventory</title>
+    <meta
+      property="og:title"
+      content="Tutorial-New-Crafting-Tab - RPG Inventory"
+    />
+    <meta
+      property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/dbe8bcdd-2f16-475b-87ba-367d12dd4497/2060abb1-195c-4c7e-a283-8b7742709e6a?org_if_sml=1"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Raleway;
+        font-size: 18px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/playground_assets/v18logo_1921.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      html {
+      scroll-behavior: smooth;
+      }
+      @keyframes zoom {
+      from {
+      transform: scale(0)
+      }
+      to {
+      transform: scale(1)
+      }
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./tutorial-new-crafting-tab.css" rel="stylesheet" />
+
+      <div class="tutorial-new-crafting-tab-container">
+        <header
+          data-thq="thq-navbar"
+          class="tutorial-new-crafting-tab-navbar-interactive"
+        >
+          <svg
+            viewBox="0 0 950.8571428571428 1024"
+            class="tutorial-new-crafting-tab-icon"
+          >
+            <path
+              d="M950.857 627.429c0 58.857-33.714 108-96 108-69.714 0-88-63.429-150.857-63.429-45.714 0-62.857 28.571-62.857 70.857 0 44.571 18.286 87.429 17.714 131.429v2.857c-6.286 0-12.571 0-18.857 0.571-58.857 5.714-118.286 17.143-177.714 17.143-40.571 0-82.857-16-82.857-62.857 0-62.857 63.429-81.143 63.429-150.857 0-62.286-49.143-96-108-96-60 0-115.429 33.143-115.429 98.857 0 72.571 55.429 104 55.429 143.429 0 20-12.571 37.714-26.286 50.857-17.714 16.571-42.857 20-66.857 20-46.857 0-93.714-6.286-140-13.714-10.286-1.714-21.143-2.857-31.429-4.571l-7.429-1.143c-1.143-0.571-2.857-0.571-2.857-1.143v-585.143c2.286 1.714 36 5.714 41.714 6.857 46.286 7.429 93.143 13.714 140 13.714 24 0 49.143-3.429 66.857-20 13.714-13.143 26.286-30.857 26.286-50.857 0-39.429-55.429-70.857-55.429-143.429 0-65.714 55.429-98.857 116-98.857 58.286 0 107.429 33.714 107.429 96 0 69.714-63.429 88-63.429 150.857 0 46.857 42.286 62.857 82.857 62.857 65.714 0 130.857-14.857 196-18.286v1.143c-1.714 2.286-5.714 36-6.857 41.714-7.429 46.286-13.714 93.143-13.714 140 0 24 3.429 49.143 20 66.857 13.143 13.714 30.857 26.286 50.857 26.286 39.429 0 70.857-55.429 143.429-55.429 65.714 0 98.857 55.429 98.857 115.429z"
+            ></path>
+          </svg>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="tutorial-new-crafting-tab-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="tutorial-new-crafting-tab-nav"
+            >
+              <div class="tutorial-new-crafting-tab-container01">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  class="tutorial-new-crafting-tab-icon02"
+                >
+                  <path
+                    d="M402.746 877.254l-320-320c-24.994-24.992-24.994-65.516 0-90.51l320-320c24.994-24.992 65.516-24.992 90.51 0 24.994 24.994 24.994 65.516 0 90.51l-210.746 210.746h613.49c35.346 0 64 28.654 64 64s-28.654 64-64 64h-613.49l210.746 210.746c12.496 12.496 18.744 28.876 18.744 45.254s-6.248 32.758-18.744 45.254c-24.994 24.994-65.516 24.994-90.51 0z"
+                  ></path>
+                </svg>
+                <a
+                  href="tutorials.html"
+                  class="tutorial-new-crafting-tab-navlink Card-Heading"
+                >
+                  Back to Tutorials
+                </a>
+              </div>
+            </nav>
+          </div>
+          <a
+            href="https://www.unrealengine.com/marketplace/en-US/product/rpg-inventory-and-interaction-system"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="tutorial-new-crafting-tab-cta-btn button"
+          >
+            MARKETPLACE PAGE
+          </a>
+          <div
+            data-thq="thq-burger-menu"
+            class="tutorial-new-crafting-tab-burger-menu"
+          >
+            <svg
+              viewBox="0 0 1024 1024"
+              class="tutorial-new-crafting-tab-icon04"
+            >
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div
+            data-thq="thq-mobile-menu"
+            class="tutorial-new-crafting-tab-mobile-menu"
+          >
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="tutorial-new-crafting-tab-nav1"
+            >
+              <div class="tutorial-new-crafting-tab-container02">
+                <div
+                  data-thq="thq-close-menu"
+                  class="tutorial-new-crafting-tab-menu-close"
+                >
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    class="tutorial-new-crafting-tab-icon06"
+                  >
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="tutorial-new-crafting-tab-nav2"
+              >
+                <a href="index.html" class="tutorial-new-crafting-tab-navlink1">
+                  Home
+                </a>
+                <a href="docs.html" class="tutorial-new-crafting-tab-navlink2">
+                  Documentation
+                </a>
+                <span class="tutorial-new-crafting-tab-text">Contact</span>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <div class="tutorial-new-crafting-tab-container03">
+          <div class="tutorial-new-crafting-tab-separator">
+            <div class="tutorial-new-crafting-tab-container04">
+              <svg
+                viewBox="0 0 1024 1024"
+                class="tutorial-new-crafting-tab-icon08"
+              >
+                <path
+                  d="M810 298v-84h-426v84h426zM640 640v-86h-256v86h256zM810 470v-86h-426v86h426zM854 86q34 0 59 25t25 59v512q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h512zM170 256v598h598v84h-598q-34 0-59-25t-25-59v-598h84z"
+                ></path>
+              </svg>
+              <h1 class="tutorial-new-crafting-tab-text01">
+                <span>Tutorial: Adding New Crafting Category Tab</span>
+                <br />
+              </h1>
+            </div>
+            <div class="tutorial-new-crafting-tab-container05">
+              <div class="tutorial-new-crafting-tab-container06">
+                <div class="infoblock-container infoblock-root-class-name1">
+                  <svg viewBox="0 0 1024 1024" class="infoblock-icon">
+                    <path
+                      d="M512 235.136c23.936 0 47.744 15.104 65.877 45.312l252.245 420.437c36.309 60.373 8.277 109.781-62.123 109.781h-512c-70.4 0-98.432-49.451-62.123-109.781l252.245-420.437c18.133-30.208 41.941-45.312 65.877-45.312M512 149.803c-55.296 0-105.899 31.573-139.051 86.656l-252.245 420.523c-33.536 55.851-37.205 115.413-10.027 163.413s80.171 75.605 145.323 75.605h512c65.152 0 118.187-27.563 145.323-75.563s23.509-107.563-10.027-163.413l-252.245-420.437c-33.152-55.211-83.755-86.784-139.051-86.784z"
+                    ></path>
+                    <path
+                      d="M576 714.581c0 0-30.336 15.403-45.867 7.765-15.445-7.851-18.517-23.083-9.771-49.152l17.323-52.096c17.195-52.096-5.163-88.576-46.165-90.923-53.675-2.987-86.187 35.243-86.187 35.243s30.293-15.573 45.867-7.765c15.445 7.851 18.432 23.083 9.771 49.152l-17.323 52.096c-17.28 52.096 5.077 88.491 46.165 90.923 53.675 3.029 86.187-35.243 86.187-35.243z"
+                    ></path>
+                    <path
+                      d="M567.509 426.667c0 30.657-24.852 55.509-55.509 55.509-30.657 0-55.509-24.852-55.509-55.509 0-30.657 24.852-55.509 55.509-55.509 30.657 0 55.509 24.852 55.509 55.509z"
+                    ></path>
+                  </svg>
+                  <span class="infoblock-text">
+                    <span>Made using RPG I&amp;I v1.9</span>
+                  </span>
+                </div>
+                <div class="tutorial-new-crafting-tab-container07">
+                  <span class="tutorial-new-crafting-tab-text04">
+                    Tutorial Result Example
+                  </span>
+                  <span class="tutorial-new-crafting-tab-text05">
+                    Consumables Tab Example with 2 Sub-Categories
+                  </span>
+                  <img
+                    alt="image"
+                    src="https://lh6.googleusercontent.com/-P3TBRofxSV5wPDv2UonvCPe0Mh8y2sCRBNDEm2MgpZyuGTV8LJVQpsL2qbBL1ERzA8=w2400"
+                    loading="lazy"
+                    class="tutorial-new-crafting-tab-image"
+                  />
+                </div>
+              </div>
+              <div class="tutorial-new-crafting-tab-container08">
+                <div class="tutorial-new-crafting-tab-container09">
+                  <div class="tutorial-new-crafting-tab-container10">
+                    <span class="tutorial-new-crafting-tab-text06">
+                      1. Open E_CraftingCategory and add new enumerator to it
+                      (your new tab name)
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh5.googleusercontent.com/3ibK0EQ-gxeRp8vgVdgwG-aAkkg-EHKDFvpuAKAIdkieArkTAiscQGXJt2d24ZR6S6Q=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image01 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-new-crafting-tab-container11">
+                    <span class="tutorial-new-crafting-tab-text07">
+                      2. Open WB_CraftingList, duplicate one of the ButtonSwitch
+                      widgets, rename it to ButtonConsumables, change the
+                      Category to Consumables. Also change the Button Style
+                      OFF/ON
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh5.googleusercontent.com/7lkDdFNABTh5s2W7mmktFgovucHkLGh1NOXTJGd7niC_GC1blabzuKVu2rEmX5hn3KA=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image02 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-new-crafting-tab-container12">
+                  <div class="tutorial-new-crafting-tab-container13">
+                    <span class="tutorial-new-crafting-tab-text08">
+                      3. Duplicate one of the MainVBoxes, rename it to
+                      MainVBox_Consumables
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh5.googleusercontent.com/oCJkdk4EUMHM3A7gWRXTJ8gJlENk5SXC4koF711u9wAY1MaI0hcD2S00rLsFWzWUrwk=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image03 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-new-crafting-tab-container14">
+                    <span class="tutorial-new-crafting-tab-text09">
+                      4. Go to Set List Title Text, set Text that will be
+                      displayed for your new Tab
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh4.googleusercontent.com/EBVAlkJnMt1YMxk8JtJr3OaFAhThc4r4f9l-EUWRc5LBw6IbfcoXW_9l0byhalKYNEY=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image04 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-new-crafting-tab-container15">
+                  <div class="tutorial-new-crafting-tab-container16">
+                    <span class="tutorial-new-crafting-tab-text10">
+                      5. Go to Switch Crafting Tab (this function is called only
+                      on Gamepad Trigger Left/Right Input), add/adjust the
+                      highlighted nodes with appropriate Category input param
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh5.googleusercontent.com/aEOQJyyh7R8X6POF7RL3rVK9MqpVK_nPfctd6ZSOGV75CjUog63l8m9E3nxH8cgTgyA=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image05 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-new-crafting-tab-container17">
+                    <span class="tutorial-new-crafting-tab-text11">
+                      6. Go to Get List by Category, connect your newly created
+                      VBox to the appropriate pin
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh6.googleusercontent.com/x6dKqPwvEpoV9BtjF8yMjVCcT5YM4qc5pz5ATu64iIOrqy_4b_GEUQJ7inRGRC2vTgo=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image06 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-new-crafting-tab-container18">
+                  <div class="tutorial-new-crafting-tab-container19">
+                    <span class="tutorial-new-crafting-tab-text12">
+                      7. Go to Get List Button, connect newly created Category
+                      Switch Button to the appropriate pin
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh6.googleusercontent.com/pMcawqZzTZoyTZ4osARoWZleH9MllzqjZxCEAkmWgchCfzWxm-h_celP_zX20CKOyGI=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image07 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-new-crafting-tab-container20">
+                    <span class="tutorial-new-crafting-tab-text13">
+                      8. Go to Event Graph, override the ButtonConsumables / On
+                      Clicked Event (select the Button variable -&gt;
+                      OnClicked), connect Switch List node to it
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh6.googleusercontent.com/KxbhvD5WAgV2ZvBo51Vyha5912Ck83dbxBDF_ajgarwvX1rzyvkj6nmIrQUofdSenU4=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image08 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-new-crafting-tab-container21">
+                  <div class="tutorial-new-crafting-tab-container22">
+                    <span class="tutorial-new-crafting-tab-text14">
+                      9. On Event Switch List, pin ButtonConsumables to the
+                      Refresh List Button node
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh4.googleusercontent.com/tXHn3iUXHhN0A9CgBtRbOGlCPKoSRY6AZGfaqdGrxS4izCLf7I1PPOEwlTWiebyInj4=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image09 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-new-crafting-tab-container23">
+                    <span class="tutorial-new-crafting-tab-text15">
+                      10. Open E_CraftingSubcategory (only if you want to add
+                      some special sub-categories to the List), and add new
+                      Enumerators, in this example Potions &amp; Food
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh6.googleusercontent.com/AexbaZd8aSVnEp6JsM6zTgdbNalI9CzDQp2j8xylYw7X6PrbFh_w8GLGXiZOl-chOKQ=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image10 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-new-crafting-tab-container24">
+                  <div class="tutorial-new-crafting-tab-container25">
+                    <span class="tutorial-new-crafting-tab-text16">
+                      11. Open AC_CraftingCore / Filter by Rarity, if you want
+                      to use the Items with some other rarity than currently
+                      connected you will need to add it in there. In this
+                      example adding Consumables (new local variable + appending
+                      it at the beggining)
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh5.googleusercontent.com/NKOskFlUe77mjTDSE2D7f-8Xbr8SyaRB6QZy-kvSozeeIV7c_0DLM34Dw9f4GzW24uc=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image11 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-new-crafting-tab-container26">
+                    <span class="tutorial-new-crafting-tab-text17">
+                      12. Duplicate one of the Crafting List Data Tables, add
+                      your new Crafting Datas to it - in this example adding
+                      Healing Potion to Category = Consumables
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh3.googleusercontent.com/QR-ut0Y8wrbsGiVPZvyjXkZvXJfpOJVJmaRWvSfkm0U6H7RNffFwACM6hFhZuvNMpC0=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image12 image-zoomable"
+                    />
+                  </div>
+                </div>
+                <div class="tutorial-new-crafting-tab-container27">
+                  <div class="tutorial-new-crafting-tab-container28">
+                    <span class="tutorial-new-crafting-tab-text18">
+                      13. Open your PlayerController, select Player Crafting
+                      Component (if you want to be able to access your newly
+                      created tab in Player Crafting Window) add new Crafting
+                      Data Table to the Array
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh6.googleusercontent.com/uBJVWuEhTg5FquBCXebO8ldh2uRdSv8f0BP-tm2IA7jdMm4OJwD2ThRbe3EAOFl0W_E=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image13 image-zoomable"
+                    />
+                  </div>
+                  <div class="tutorial-new-crafting-tab-container29">
+                    <span class="tutorial-new-crafting-tab-text19">
+                      14. Open AC_CraftingCore (if you want to be able to access
+                      your newly created tab from every Crafting Station you
+                      interact with) add Crafting Data Table to the Array
+                    </span>
+                    <img
+                      alt="image"
+                      src="https://lh5.googleusercontent.com/Fmd09Z8kvzkTeon4mOWevBNdz2as0yxpDdgf5Kgjq6k3Gshh0BrFVZgLMGk967qhVhQ=w2400"
+                      loading="lazy"
+                      class="tutorial-new-crafting-tab-image14 image-zoomable"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tutorial-new-crafting-tab-footer-container">
+          <div class="tutorial-new-crafting-tab-footer">
+            <div class="tutorial-new-crafting-tab-copyright-container">
+              <svg
+                viewBox="0 0 1024 1024"
+                class="tutorial-new-crafting-tab-icon10"
+              >
+                <path
+                  d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
+                ></path>
+              </svg>
+              <span class="tutorial-new-crafting-tab-link">
+                <span class="tutorial-new-crafting-tab-text20">shq300</span>
+                <span class="Anchor">, 2022</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div id="myModal" class="tutorial-new-crafting-tab-container30 modal">
+          <img
+            id="img01"
+            alt="image"
+            src="https://lh5.googleusercontent.com/kEi3Gf931AgTDEnAGjV3ElyzsSGpe_oWQQTZewIJciZ45o8FISIUEkGmdCraOvETYqk=w2400"
+            class="modal-content"
+          />
+          <span class="close">X</span>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <script>
+        function showDiv(toggle){
+      var x = document.getElementById(toggle);
+      if (x.style.display === "none") {
+      x.style.display = "block";
+      } else {
+      x.style.display = "none";
+      }}
+      // create references to the modal...
+      var modal = document.getElementById('myModal');
+      modal.onclick = function(){
+      modal.style.display = "none";
+      }
+      // to all images -- note I'm using a class!
+      var images = document.getElementsByClassName('image-zoomable');
+      // the image in the modal
+      var modalImg = document.getElementById("img01");
+      // Go through all of the images with our custom class
+      for (var i = 0; i < images.length; i++) {
+       var img=images[i]; // and attach our click listener for this image.
+        img.onclick=function(evt) {
+        modal.style.display="block" ;
+        modalImg.src=this.src;
+        }}
+        var span=document.getElementsByClassName("close")[0];
+        span.onclick=function() { modal.style.display="none" ; }
+    </script>
+  </body>
+</html>

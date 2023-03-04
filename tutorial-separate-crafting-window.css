@@ -40,7 +40,9 @@
 }
 
 
-.tutorialchanginginventorylayout-container {
+
+
+.tutorial-separate-crafting-window-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -48,7 +50,7 @@
   align-items: center;
   flex-direction: column;
 }
-.tutorialchanginginventorylayout-navbar-interactive {
+.tutorial-separate-crafting-window-navbar-interactive {
   top: 0;
   width: 100%;
   display: flex;
@@ -64,24 +66,24 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.tutorialchanginginventorylayout-icon {
+.tutorial-separate-crafting-window-icon {
   width: 64px;
   height: auto;
   margin-right: var(--dl-space-space-tenunits);
 }
-.tutorialchanginginventorylayout-desktop-menu {
+.tutorial-separate-crafting-window-desktop-menu {
   flex: 1;
   width: auto;
   display: flex;
   justify-content: flex-start;
 }
-.tutorialchanginginventorylayout-nav {
+.tutorial-separate-crafting-window-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.tutorialchanginginventorylayout-container01 {
+.tutorial-separate-crafting-window-container01 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -89,15 +91,15 @@
   align-items: center;
   justify-content: center;
 }
-.tutorialchanginginventorylayout-icon02 {
+.tutorial-separate-crafting-window-icon02 {
   width: 32px;
   height: auto;
 }
-.tutorialchanginginventorylayout-navlink {
+.tutorial-separate-crafting-window-navlink {
   margin-left: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.tutorialchanginginventorylayout-cta-btn {
+.tutorial-separate-crafting-window-cta-btn {
   color: var(--dl-color-gray-white);
   width: auto;
   transition: 0.3s;
@@ -109,30 +111,30 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.tutorialchanginginventorylayout-cta-btn:hover {
+.tutorial-separate-crafting-window-cta-btn:hover {
   color: #0c0c0c;
   background-color: #dcdcdc;
 }
-.tutorialchanginginventorylayout-burger-menu {
+.tutorial-separate-crafting-window-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.tutorialchanginginventorylayout-icon04 {
+.tutorial-separate-crafting-window-icon04 {
   width: 16px;
   height: 16px;
   transition: 0.3s;
 }
-.tutorialchanginginventorylayout-icon04:focus {
+.tutorial-separate-crafting-window-icon04:focus {
   fill: #D9D9D9;
 }
-.tutorialchanginginventorylayout-icon04:hover {
+.tutorial-separate-crafting-window-icon04:hover {
   fill: #D9D9D9;
 }
-.tutorialchanginginventorylayout-icon04:active {
+.tutorial-separate-crafting-window-icon04:active {
   fill: #D9D9D9;
 }
-.tutorialchanginginventorylayout-mobile-menu {
+.tutorial-separate-crafting-window-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -147,45 +149,45 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.tutorialchanginginventorylayout-nav1 {
+.tutorial-separate-crafting-window-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.tutorialchanginginventorylayout-container02 {
+.tutorial-separate-crafting-window-container02 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 48px;
   justify-content: space-between;
 }
-.tutorialchanginginventorylayout-menu-close {
+.tutorial-separate-crafting-window-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.tutorialchanginginventorylayout-icon06 {
+.tutorial-separate-crafting-window-icon06 {
   width: 16px;
   height: 16px;
 }
-.tutorialchanginginventorylayout-nav2 {
+.tutorial-separate-crafting-window-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.tutorialchanginginventorylayout-navlink1 {
+.tutorial-separate-crafting-window-navlink1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.tutorialchanginginventorylayout-navlink2 {
+.tutorial-separate-crafting-window-navlink2 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.tutorialchanginginventorylayout-text {
+.tutorial-separate-crafting-window-text {
   margin-bottom: var(--dl-space-space-unit);
 }
-.tutorialchanginginventorylayout-container03 {
+.tutorial-separate-crafting-window-container03 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -196,7 +198,7 @@
   justify-content: space-between;
   background-image: linear-gradient(90deg, rgb(229, 229, 229) 0.00%,rgb(215, 214, 214) 100.00%);
 }
-.tutorialchanginginventorylayout-separator {
+.tutorial-separate-crafting-window-separator {
   width: 100%;
   display: flex;
   align-self: flex-start;
@@ -204,7 +206,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialchanginginventorylayout-container04 {
+.tutorial-separate-crafting-window-container04 {
   flex: 0 0 auto;
   height: 100%;
   display: flex;
@@ -214,7 +216,7 @@
   justify-content: center;
   background-image: linear-gradient(90deg, rgb(185, 221, 41) 0.00%,rgb(111, 185, 53) 100.00%);
 }
-.tutorialchanginginventorylayout-icon08 {
+.tutorial-separate-crafting-window-icon08 {
   fill: #ffffff;
   width: 100px;
   align-self: center;
@@ -222,7 +224,7 @@
   margin-right: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.tutorialchanginginventorylayout-text1 {
+.tutorial-separate-crafting-window-text01 {
   color: rgb(255, 255, 255);
   width: auto;
   font-size: 32px;
@@ -235,7 +237,7 @@
   text-transform: capitalize;
   text-decoration: none;
 }
-.tutorialchanginginventorylayout-container05 {
+.tutorial-separate-crafting-window-container05 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -255,7 +257,7 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.tutorialchanginginventorylayout-container06 {
+.tutorial-separate-crafting-window-container06 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -267,7 +269,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.tutorialchanginginventorylayout-container07 {
+.tutorial-separate-crafting-window-container07 {
   flex: 1;
   width: 80%;
   height: auto;
@@ -280,17 +282,17 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialchanginginventorylayout-text2 {
+.tutorial-separate-crafting-window-text04 {
   font-size: 32px;
   align-self: center;
   font-style: normal;
   font-family: Raleway;
   font-weight: 700;
   line-height: 1.55;
-  margin-bottom: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.tutorialchanginginventorylayout-text3 {
+.tutorial-separate-crafting-window-text05 {
   font-size: 32px;
   align-self: center;
   font-style: normal;
@@ -300,7 +302,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.tutorialchanginginventorylayout-image {
+.tutorial-separate-crafting-window-image {
   flex: 1;
   width: 100%;
   height: auto;
@@ -308,7 +310,7 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius24);
 }
-.tutorialchanginginventorylayout-container08 {
+.tutorial-separate-crafting-window-container08 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -318,7 +320,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialchanginginventorylayout-container09 {
+.tutorial-separate-crafting-window-container09 {
   width: 100%;
   height: auto;
   display: flex;
@@ -327,7 +329,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorialchanginginventorylayout-container10 {
+.tutorial-separate-crafting-window-container10 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -338,7 +340,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorialchanginginventorylayout-text4 {
+.tutorial-separate-crafting-window-text06 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -351,13 +353,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialchanginginventorylayout-image1 {
+.tutorial-separate-crafting-window-image1 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialchanginginventorylayout-container11 {
+.tutorial-separate-crafting-window-container11 {
   flex: 1;
   width: auto;
   height: auto;
@@ -371,7 +373,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorialchanginginventorylayout-text5 {
+.tutorial-separate-crafting-window-text07 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -385,13 +387,86 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorialchanginginventorylayout-image2 {
+.tutorial-separate-crafting-window-image2 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorialchanginginventorylayout-footer-container {
+.tutorial-separate-crafting-window-container12 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.tutorial-separate-crafting-window-container13 {
+  flex: 1;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
+.tutorial-separate-crafting-window-text08 {
+  font-size: 22px;
+  align-self: stretch;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: rgba(107, 107, 107, 0.23);
+}
+.tutorial-separate-crafting-window-image3 {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  object-fit: cover;
+}
+.tutorial-separate-crafting-window-container14 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.tutorial-separate-crafting-window-text09 {
+  height: auto;
+  font-size: 22px;
+  align-self: stretch;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.55;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: rgba(107, 107, 107, 0.23);
+}
+.tutorial-separate-crafting-window-image4 {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  object-fit: cover;
+}
+.tutorial-separate-crafting-window-footer-container {
   width: 100%;
   display: flex;
   align-items: center;
@@ -399,7 +474,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.tutorialchanginginventorylayout-footer {
+.tutorial-separate-crafting-window-footer {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -411,17 +486,17 @@
   padding-bottom: var(--dl-space-space-tripleunit);
   justify-content: space-between;
 }
-.tutorialchanginginventorylayout-copyright-container {
+.tutorial-separate-crafting-window-copyright-container {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.tutorialchanginginventorylayout-icon10 {
+.tutorial-separate-crafting-window-icon10 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.tutorialchanginginventorylayout-link {
+.tutorial-separate-crafting-window-link {
   font-size: 18px;
   font-style: normal;
   font-family: Raleway;
@@ -429,32 +504,32 @@
   line-height: 1.55;
   text-decoration: none;
 }
-.tutorialchanginginventorylayout-text6 {
+.tutorial-separate-crafting-window-text10 {
   text-transform: lowercase;
 }
-.tutorialchanginginventorylayout-container12 {
+.tutorial-separate-crafting-window-container15 {
   display: none;
 }
 @media(max-width: 1200px) {
-  .tutorialchanginginventorylayout-navbar-interactive {
+  .tutorial-separate-crafting-window-navbar-interactive {
     padding-left: var(--dl-space-space-tenunits);
     padding-right: var(--dl-space-space-tenunits);
   }
-  .tutorialchanginginventorylayout-icon {
+  .tutorial-separate-crafting-window-icon {
     margin-right: var(--dl-space-space-fiveunits);
   }
 }
 @media(max-width: 991px) {
-  .tutorialchanginginventorylayout-navbar-interactive {
+  .tutorial-separate-crafting-window-navbar-interactive {
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .tutorialchanginginventorylayout-icon {
+  .tutorial-separate-crafting-window-icon {
     width: 64px;
     height: auto;
     margin-right: var(--dl-space-space-doubleunit);
   }
-  .tutorialchanginginventorylayout-cta-btn {
+  .tutorial-separate-crafting-window-cta-btn {
     color: var(--dl-color-gray-white);
     width: auto;
     align-self: center;
@@ -462,15 +537,21 @@
     text-decoration: none;
     background-color: var(--dl-color-gray-black);
   }
-  .tutorialchanginginventorylayout-separator {
+  .tutorial-separate-crafting-window-separator {
     width: 100%;
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .tutorialchanginginventorylayout-container04 {
+  .tutorial-separate-crafting-window-container04 {
     width: auto;
   }
-  .tutorialchanginginventorylayout-container09 {
+  .tutorial-separate-crafting-window-container09 {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .tutorial-separate-crafting-window-container12 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -478,94 +559,94 @@
   }
 }
 @media(max-width: 890px) {
-  .tutorialchanginginventorylayout-navbar-interactive {
+  .tutorial-separate-crafting-window-navbar-interactive {
     padding-top: var(--dl-space-space-unit);
     padding-left: 32px;
     padding-right: 32px;
   }
-  .tutorialchanginginventorylayout-icon {
+  .tutorial-separate-crafting-window-icon {
     display: none;
   }
-  .tutorialchanginginventorylayout-desktop-menu {
+  .tutorial-separate-crafting-window-desktop-menu {
     display: none;
   }
-  .tutorialchanginginventorylayout-burger-menu {
+  .tutorial-separate-crafting-window-burger-menu {
     display: flex;
   }
-  .tutorialchanginginventorylayout-icon04 {
+  .tutorial-separate-crafting-window-icon04 {
     width: 64px;
     height: auto;
   }
-  .tutorialchanginginventorylayout-mobile-menu {
+  .tutorial-separate-crafting-window-mobile-menu {
     padding-top: var(--dl-space-space-doubleunit);
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
     padding-bottom: var(--dl-space-space-doubleunit);
   }
-  .tutorialchanginginventorylayout-container02 {
+  .tutorial-separate-crafting-window-container02 {
     width: 100%;
     align-self: flex-end;
   }
-  .tutorialchanginginventorylayout-menu-close {
+  .tutorial-separate-crafting-window-menu-close {
     flex: 1;
     justify-content: flex-end;
   }
-  .tutorialchanginginventorylayout-icon06 {
+  .tutorial-separate-crafting-window-icon06 {
     width: 64px;
     height: auto;
   }
-  .tutorialchanginginventorylayout-nav2 {
+  .tutorial-separate-crafting-window-nav2 {
     align-self: stretch;
     align-items: center;
     justify-content: flex-start;
   }
-  .tutorialchanginginventorylayout-navlink1 {
+  .tutorial-separate-crafting-window-navlink1 {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .tutorialchanginginventorylayout-navlink2 {
+  .tutorial-separate-crafting-window-navlink2 {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .tutorialchanginginventorylayout-text {
+  .tutorial-separate-crafting-window-text {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .tutorialchanginginventorylayout-separator {
+  .tutorial-separate-crafting-window-separator {
     width: 100%;
   }
-  .tutorialchanginginventorylayout-container04 {
+  .tutorial-separate-crafting-window-container04 {
     width: auto;
   }
 }
 @media(max-width: 479px) {
-  .tutorialchanginginventorylayout-navbar-interactive {
+  .tutorial-separate-crafting-window-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .tutorialchanginginventorylayout-cta-btn {
+  .tutorial-separate-crafting-window-cta-btn {
     font-size: 16px;
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .tutorialchanginginventorylayout-mobile-menu {
+  .tutorial-separate-crafting-window-mobile-menu {
     padding: 16px;
   }
-  .tutorialchanginginventorylayout-container03 {
+  .tutorial-separate-crafting-window-container03 {
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
   }
-  .tutorialchanginginventorylayout-separator {
+  .tutorial-separate-crafting-window-separator {
     width: 90%;
     align-self: flex-start;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
   }
-  .tutorialchanginginventorylayout-container04 {
+  .tutorial-separate-crafting-window-container04 {
     width: auto;
     height: auto;
   }
