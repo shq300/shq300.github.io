@@ -43,7 +43,7 @@
 
 
 
-.tutorial-new-crafting-tab-container {
+.tutorial-changing-to-enhanced-input-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -51,7 +51,7 @@
   align-items: center;
   flex-direction: column;
 }
-.tutorial-new-crafting-tab-navbar-interactive {
+.tutorial-changing-to-enhanced-input-navbar-interactive {
   top: 0;
   width: 100%;
   display: flex;
@@ -67,24 +67,24 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.tutorial-new-crafting-tab-icon {
+.tutorial-changing-to-enhanced-input-icon {
   width: 64px;
   height: auto;
   margin-right: var(--dl-space-space-tenunits);
 }
-.tutorial-new-crafting-tab-desktop-menu {
+.tutorial-changing-to-enhanced-input-desktop-menu {
   flex: 1;
   width: auto;
   display: flex;
   justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-nav {
+.tutorial-changing-to-enhanced-input-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.tutorial-new-crafting-tab-container01 {
+.tutorial-changing-to-enhanced-input-container01 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -92,15 +92,15 @@
   align-items: center;
   justify-content: center;
 }
-.tutorial-new-crafting-tab-icon02 {
+.tutorial-changing-to-enhanced-input-icon02 {
   width: 32px;
   height: auto;
 }
-.tutorial-new-crafting-tab-navlink {
+.tutorial-changing-to-enhanced-input-navlink {
   margin-left: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.tutorial-new-crafting-tab-cta-btn {
+.tutorial-changing-to-enhanced-input-cta-btn {
   color: var(--dl-color-gray-white);
   width: auto;
   transition: 0.3s;
@@ -112,30 +112,30 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.tutorial-new-crafting-tab-cta-btn:hover {
+.tutorial-changing-to-enhanced-input-cta-btn:hover {
   color: #0c0c0c;
   background-color: #dcdcdc;
 }
-.tutorial-new-crafting-tab-burger-menu {
+.tutorial-changing-to-enhanced-input-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.tutorial-new-crafting-tab-icon04 {
+.tutorial-changing-to-enhanced-input-icon04 {
   width: 16px;
   height: 16px;
   transition: 0.3s;
 }
-.tutorial-new-crafting-tab-icon04:focus {
+.tutorial-changing-to-enhanced-input-icon04:focus {
   fill: #D9D9D9;
 }
-.tutorial-new-crafting-tab-icon04:hover {
+.tutorial-changing-to-enhanced-input-icon04:hover {
   fill: #D9D9D9;
 }
-.tutorial-new-crafting-tab-icon04:active {
+.tutorial-changing-to-enhanced-input-icon04:active {
   fill: #D9D9D9;
 }
-.tutorial-new-crafting-tab-mobile-menu {
+.tutorial-changing-to-enhanced-input-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -150,45 +150,45 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.tutorial-new-crafting-tab-nav1 {
+.tutorial-changing-to-enhanced-input-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.tutorial-new-crafting-tab-container02 {
+.tutorial-changing-to-enhanced-input-container02 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 48px;
   justify-content: space-between;
 }
-.tutorial-new-crafting-tab-menu-close {
+.tutorial-changing-to-enhanced-input-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.tutorial-new-crafting-tab-icon06 {
+.tutorial-changing-to-enhanced-input-icon06 {
   width: 16px;
   height: 16px;
 }
-.tutorial-new-crafting-tab-nav2 {
+.tutorial-changing-to-enhanced-input-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.tutorial-new-crafting-tab-navlink1 {
+.tutorial-changing-to-enhanced-input-navlink1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.tutorial-new-crafting-tab-navlink2 {
+.tutorial-changing-to-enhanced-input-navlink2 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.tutorial-new-crafting-tab-text {
+.tutorial-changing-to-enhanced-input-text {
   margin-bottom: var(--dl-space-space-unit);
 }
-.tutorial-new-crafting-tab-container03 {
+.tutorial-changing-to-enhanced-input-container03 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -199,7 +199,7 @@
   justify-content: space-between;
   background-image: linear-gradient(90deg, rgb(229, 229, 229) 0.00%,rgb(215, 214, 214) 100.00%);
 }
-.tutorial-new-crafting-tab-separator {
+.tutorial-changing-to-enhanced-input-separator {
   width: 100%;
   display: flex;
   align-self: flex-start;
@@ -207,7 +207,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-container04 {
+.tutorial-changing-to-enhanced-input-container04 {
   flex: 0 0 auto;
   height: 100%;
   display: flex;
@@ -217,7 +217,7 @@
   justify-content: center;
   background-image: linear-gradient(90deg, rgb(185, 221, 41) 0.00%,rgb(111, 185, 53) 100.00%);
 }
-.tutorial-new-crafting-tab-icon08 {
+.tutorial-changing-to-enhanced-input-icon08 {
   fill: #ffffff;
   width: 100px;
   align-self: center;
@@ -225,7 +225,7 @@
   margin-right: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.tutorial-new-crafting-tab-text01 {
+.tutorial-changing-to-enhanced-input-text01 {
   color: rgb(255, 255, 255);
   width: auto;
   font-size: 32px;
@@ -238,7 +238,7 @@
   text-transform: capitalize;
   text-decoration: none;
 }
-.tutorial-new-crafting-tab-container05 {
+.tutorial-changing-to-enhanced-input-container05 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -258,7 +258,7 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.tutorial-new-crafting-tab-container06 {
+.tutorial-changing-to-enhanced-input-container06 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -270,48 +270,14 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.tutorial-new-crafting-tab-container07 {
-  flex: 1;
-  width: 80%;
-  height: auto;
-  display: flex;
+.tutorial-changing-to-enhanced-input-text04 {
   align-self: center;
-  margin-top: var(--dl-space-space-unit);
-  align-items: flex-start;
-  border-radius: var(--dl-radius-radius-radius24);
-  margin-bottom: var(--dl-space-space-unit);
-  flex-direction: column;
-  justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-text04 {
-  font-size: 32px;
+.tutorial-changing-to-enhanced-input-link {
   align-self: center;
-  font-style: normal;
-  font-family: Raleway;
-  font-weight: 700;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.tutorial-new-crafting-tab-text05 {
-  font-size: 32px;
-  align-self: center;
-  font-style: normal;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  text-decoration: none;
-}
-.tutorial-new-crafting-tab-image {
-  flex: 1;
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-radius24);
-}
-.tutorial-new-crafting-tab-container08 {
+.tutorial-changing-to-enhanced-input-container07 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -321,7 +287,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-container09 {
+.tutorial-changing-to-enhanced-input-container08 {
   width: 100%;
   height: auto;
   display: flex;
@@ -330,7 +296,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorial-new-crafting-tab-container10 {
+.tutorial-changing-to-enhanced-input-container09 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -341,7 +307,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorial-new-crafting-tab-text06 {
+.tutorial-changing-to-enhanced-input-text05 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -354,13 +320,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorial-new-crafting-tab-image01 {
+.tutorial-changing-to-enhanced-input-image {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorial-new-crafting-tab-container11 {
+.tutorial-changing-to-enhanced-input-container10 {
   flex: 1;
   width: auto;
   height: auto;
@@ -374,7 +340,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-text07 {
+.tutorial-changing-to-enhanced-input-text06 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -388,13 +354,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorial-new-crafting-tab-image02 {
+.tutorial-changing-to-enhanced-input-image1 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorial-new-crafting-tab-container12 {
+.tutorial-changing-to-enhanced-input-container11 {
   width: 100%;
   height: auto;
   display: flex;
@@ -403,7 +369,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorial-new-crafting-tab-container13 {
+.tutorial-changing-to-enhanced-input-container12 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -414,7 +380,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorial-new-crafting-tab-text08 {
+.tutorial-changing-to-enhanced-input-text07 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -427,13 +393,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorial-new-crafting-tab-image03 {
+.tutorial-changing-to-enhanced-input-image2 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorial-new-crafting-tab-container14 {
+.tutorial-changing-to-enhanced-input-container13 {
   flex: 1;
   width: auto;
   height: auto;
@@ -447,7 +413,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-text09 {
+.tutorial-changing-to-enhanced-input-text08 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -461,13 +427,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorial-new-crafting-tab-image04 {
+.tutorial-changing-to-enhanced-input-image3 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorial-new-crafting-tab-container15 {
+.tutorial-changing-to-enhanced-input-container14 {
   width: 100%;
   height: auto;
   display: flex;
@@ -476,7 +442,7 @@
   align-items: stretch;
   justify-content: space-between;
 }
-.tutorial-new-crafting-tab-container16 {
+.tutorial-changing-to-enhanced-input-container15 {
   flex: 1;
   display: flex;
   align-self: flex-start;
@@ -487,7 +453,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.tutorial-new-crafting-tab-text10 {
+.tutorial-changing-to-enhanced-input-text09 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
@@ -500,13 +466,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorial-new-crafting-tab-image05 {
+.tutorial-changing-to-enhanced-input-image4 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorial-new-crafting-tab-container17 {
+.tutorial-changing-to-enhanced-input-container16 {
   flex: 1;
   width: auto;
   height: auto;
@@ -520,7 +486,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-text11 {
+.tutorial-changing-to-enhanced-input-text10 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -534,305 +500,13 @@
   text-decoration: none;
   background-color: rgba(107, 107, 107, 0.23);
 }
-.tutorial-new-crafting-tab-image06 {
+.tutorial-changing-to-enhanced-input-image5 {
   width: 100%;
   height: auto;
   align-self: center;
   object-fit: cover;
 }
-.tutorial-new-crafting-tab-container18 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.tutorial-new-crafting-tab-container19 {
-  flex: 1;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorial-new-crafting-tab-text12 {
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image07 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-container20 {
-  flex: 1;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.tutorial-new-crafting-tab-text13 {
-  height: auto;
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image08 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-container21 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.tutorial-new-crafting-tab-container22 {
-  flex: 1;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorial-new-crafting-tab-text14 {
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image09 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-container23 {
-  flex: 1;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.tutorial-new-crafting-tab-text15 {
-  height: auto;
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image10 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-container24 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.tutorial-new-crafting-tab-container25 {
-  flex: 1;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorial-new-crafting-tab-text16 {
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image11 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-container26 {
-  flex: 1;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.tutorial-new-crafting-tab-text17 {
-  height: auto;
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image12 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-container27 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.tutorial-new-crafting-tab-container28 {
-  flex: 1;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorial-new-crafting-tab-text18 {
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image13 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-container29 {
-  flex: 1;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.tutorial-new-crafting-tab-text19 {
-  height: auto;
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image14 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-footer-container {
+.tutorial-changing-to-enhanced-input-footer-container {
   width: 100%;
   display: flex;
   align-items: center;
@@ -840,7 +514,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.tutorial-new-crafting-tab-footer {
+.tutorial-changing-to-enhanced-input-footer {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
@@ -852,17 +526,17 @@
   padding-bottom: var(--dl-space-space-tripleunit);
   justify-content: space-between;
 }
-.tutorial-new-crafting-tab-copyright-container {
+.tutorial-changing-to-enhanced-input-copyright-container {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.tutorial-new-crafting-tab-icon10 {
+.tutorial-changing-to-enhanced-input-icon10 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.tutorial-new-crafting-tab-link {
+.tutorial-changing-to-enhanced-input-link1 {
   font-size: 18px;
   font-style: normal;
   font-family: Raleway;
@@ -870,32 +544,32 @@
   line-height: 1.55;
   text-decoration: none;
 }
-.tutorial-new-crafting-tab-text20 {
+.tutorial-changing-to-enhanced-input-text11 {
   text-transform: lowercase;
 }
-.tutorial-new-crafting-tab-container30 {
+.tutorial-changing-to-enhanced-input-container17 {
   display: none;
 }
 @media(max-width: 1200px) {
-  .tutorial-new-crafting-tab-navbar-interactive {
+  .tutorial-changing-to-enhanced-input-navbar-interactive {
     padding-left: var(--dl-space-space-tenunits);
     padding-right: var(--dl-space-space-tenunits);
   }
-  .tutorial-new-crafting-tab-icon {
+  .tutorial-changing-to-enhanced-input-icon {
     margin-right: var(--dl-space-space-fiveunits);
   }
 }
 @media(max-width: 991px) {
-  .tutorial-new-crafting-tab-navbar-interactive {
+  .tutorial-changing-to-enhanced-input-navbar-interactive {
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .tutorial-new-crafting-tab-icon {
+  .tutorial-changing-to-enhanced-input-icon {
     width: 64px;
     height: auto;
     margin-right: var(--dl-space-space-doubleunit);
   }
-  .tutorial-new-crafting-tab-cta-btn {
+  .tutorial-changing-to-enhanced-input-cta-btn {
     color: var(--dl-color-gray-white);
     width: auto;
     align-self: center;
@@ -903,51 +577,27 @@
     text-decoration: none;
     background-color: var(--dl-color-gray-black);
   }
-  .tutorial-new-crafting-tab-separator {
+  .tutorial-changing-to-enhanced-input-separator {
     width: 100%;
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .tutorial-new-crafting-tab-container04 {
+  .tutorial-changing-to-enhanced-input-container04 {
     width: auto;
   }
-  .tutorial-new-crafting-tab-container09 {
+  .tutorial-changing-to-enhanced-input-container08 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorial-new-crafting-tab-container12 {
+  .tutorial-changing-to-enhanced-input-container11 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
   }
-  .tutorial-new-crafting-tab-container15 {
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .tutorial-new-crafting-tab-container18 {
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .tutorial-new-crafting-tab-container21 {
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .tutorial-new-crafting-tab-container24 {
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .tutorial-new-crafting-tab-container27 {
+  .tutorial-changing-to-enhanced-input-container14 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -955,94 +605,94 @@
   }
 }
 @media(max-width: 890px) {
-  .tutorial-new-crafting-tab-navbar-interactive {
+  .tutorial-changing-to-enhanced-input-navbar-interactive {
     padding-top: var(--dl-space-space-unit);
     padding-left: 32px;
     padding-right: 32px;
   }
-  .tutorial-new-crafting-tab-icon {
+  .tutorial-changing-to-enhanced-input-icon {
     display: none;
   }
-  .tutorial-new-crafting-tab-desktop-menu {
+  .tutorial-changing-to-enhanced-input-desktop-menu {
     display: none;
   }
-  .tutorial-new-crafting-tab-burger-menu {
+  .tutorial-changing-to-enhanced-input-burger-menu {
     display: flex;
   }
-  .tutorial-new-crafting-tab-icon04 {
+  .tutorial-changing-to-enhanced-input-icon04 {
     width: 64px;
     height: auto;
   }
-  .tutorial-new-crafting-tab-mobile-menu {
+  .tutorial-changing-to-enhanced-input-mobile-menu {
     padding-top: var(--dl-space-space-doubleunit);
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
     padding-bottom: var(--dl-space-space-doubleunit);
   }
-  .tutorial-new-crafting-tab-container02 {
+  .tutorial-changing-to-enhanced-input-container02 {
     width: 100%;
     align-self: flex-end;
   }
-  .tutorial-new-crafting-tab-menu-close {
+  .tutorial-changing-to-enhanced-input-menu-close {
     flex: 1;
     justify-content: flex-end;
   }
-  .tutorial-new-crafting-tab-icon06 {
+  .tutorial-changing-to-enhanced-input-icon06 {
     width: 64px;
     height: auto;
   }
-  .tutorial-new-crafting-tab-nav2 {
+  .tutorial-changing-to-enhanced-input-nav2 {
     align-self: stretch;
     align-items: center;
     justify-content: flex-start;
   }
-  .tutorial-new-crafting-tab-navlink1 {
+  .tutorial-changing-to-enhanced-input-navlink1 {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .tutorial-new-crafting-tab-navlink2 {
+  .tutorial-changing-to-enhanced-input-navlink2 {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .tutorial-new-crafting-tab-text {
+  .tutorial-changing-to-enhanced-input-text {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
   }
-  .tutorial-new-crafting-tab-separator {
+  .tutorial-changing-to-enhanced-input-separator {
     width: 100%;
   }
-  .tutorial-new-crafting-tab-container04 {
+  .tutorial-changing-to-enhanced-input-container04 {
     width: auto;
   }
 }
 @media(max-width: 479px) {
-  .tutorial-new-crafting-tab-navbar-interactive {
+  .tutorial-changing-to-enhanced-input-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .tutorial-new-crafting-tab-cta-btn {
+  .tutorial-changing-to-enhanced-input-cta-btn {
     font-size: 16px;
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .tutorial-new-crafting-tab-mobile-menu {
+  .tutorial-changing-to-enhanced-input-mobile-menu {
     padding: 16px;
   }
-  .tutorial-new-crafting-tab-container03 {
+  .tutorial-changing-to-enhanced-input-container03 {
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
   }
-  .tutorial-new-crafting-tab-separator {
+  .tutorial-changing-to-enhanced-input-separator {
     width: 90%;
     align-self: flex-start;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
   }
-  .tutorial-new-crafting-tab-container04 {
+  .tutorial-changing-to-enhanced-input-container04 {
     width: auto;
     height: auto;
   }
