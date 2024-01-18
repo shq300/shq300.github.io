@@ -33,6 +33,10 @@
       }
     </style>
     <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
       rel="shortcut icon"
       href="public/v18logo_1921.png"
       type="icon/png"
@@ -52,6 +56,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
       data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
     <style>
       html {
@@ -381,21 +389,26 @@
                 </div>
                 <div class="docs-container20">
                   <span class="docs-text25">
-                    To help retrieve certain component from an actor as well as
-                    provide reusable logic accessible from anywhere, the utility
-                    function and macro libraries are being used. Getting a
-                    reference to a Component requires specifying the Target
-                    actor - almost all of the times it will be the Player
-                    Controller. In widgets you can easily get a reference to it
-                    by calling 'Get Owning Player'. In other cases you could use
-                    'Get Player Controller' node.
+                    To retrieve certain component from the PlayerController use
+                    the Components Manager Interface, by calling a specified
+                    Getter function it will output the wanted Component
+                    Reference. Make sure to provide the Player Controller as the
+                    Target parameter (this can be done by either calling a Get
+                    Player Controller or inside the widget use Get Owning Player
+                    node). In order to get a specified Component from the
+                    currently Interacted Object call Get Current Interactable
+                    Object (Target = PlayerController) then from the Output call
+                    Get Component by Class with a specified Component Class
+                    (i.e. InventoryCore Component). System is also using some
+                    handful macros like Is Item Class Valid? to quickly check if
+                    the ItemData is for example not empty.
                   </span>
                 </div>
                 <div class="docs-container21">
                   <div class="docs-container22">
                     <img
                       alt="image"
-                      src="https://lh5.googleusercontent.com/kEi3Gf931AgTDEnAGjV3ElyzsSGpe_oWQQTZewIJciZ45o8FISIUEkGmdCraOvETYqk=w2400"
+                      src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYS4m4swZ_auFQLoPIuELL0tbBUBvtyOQlxnkwiXqpcjctW-T4IBTDJd005qjOXVeN584R86tielZdRtU0dXxusJ05Qprg=s1600"
                       loading="lazy"
                       class="docs-image06 image-zoomable"
                     />
@@ -407,7 +420,7 @@
                   <div class="docs-container23">
                     <img
                       alt="image"
-                      src="https://lh3.googleusercontent.com/61eAfWj23VvHX2mNnGWB_QIzvD4ksul-QutbkK5ujO3YcAhTyEcPy9bkBQlf17Qd-xE=w2400"
+                      src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYTxLAo1Zbsxf5IwBXJsXVOONTC4QVwKocjXFwLqRsyU7MU_P31OTgwSnU4Tamiipr5owTfsghXTc2qlXg8MeTkTYasb=s1600"
                       loading="lazy"
                       class="docs-image07 image-zoomable"
                     />
