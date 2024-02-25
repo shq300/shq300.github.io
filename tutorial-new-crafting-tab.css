@@ -43,6 +43,59 @@
 
 
 
+.footer-container-footer-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.footer-container-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.footer-container-copyright-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.footer-container-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.footer-container-link {
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 1.55;
+  text-decoration: none;
+}
+.footer-container-text {
+  text-transform: lowercase;
+}
+
+
+
+
+
+
+
+
+
+
+
 .tutorial-new-crafting-tab-container {
   width: 100%;
   height: auto;
@@ -347,7 +400,7 @@
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 400;
   line-height: 1.55;
   margin-bottom: var(--dl-space-space-unit);
@@ -374,7 +427,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-text07 {
+.tutorial-new-crafting-tab-text11 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
@@ -405,6 +458,8 @@
 }
 .tutorial-new-crafting-tab-container13 {
   flex: 1;
+  width: auto;
+  height: auto;
   display: flex;
   align-self: flex-start;
   margin-top: var(--dl-space-space-doubleunit);
@@ -413,14 +468,16 @@
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
+  justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-text08 {
+.tutorial-new-crafting-tab-text12 {
+  height: auto;
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 400;
   line-height: 1.55;
   margin-bottom: var(--dl-space-space-unit);
@@ -435,8 +492,6 @@
 }
 .tutorial-new-crafting-tab-container14 {
   flex: 1;
-  width: auto;
-  height: auto;
   display: flex;
   align-self: flex-start;
   margin-top: var(--dl-space-space-doubleunit);
@@ -445,16 +500,14 @@
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
-  justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-text09 {
-  height: auto;
+.tutorial-new-crafting-tab-text13 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 400;
   line-height: 1.55;
   margin-bottom: var(--dl-space-space-unit);
@@ -478,6 +531,8 @@
 }
 .tutorial-new-crafting-tab-container16 {
   flex: 1;
+  width: auto;
+  height: auto;
   display: flex;
   align-self: flex-start;
   margin-top: var(--dl-space-space-doubleunit);
@@ -486,14 +541,16 @@
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
+  justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-text10 {
+.tutorial-new-crafting-tab-text14 {
+  height: auto;
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 400;
   line-height: 1.55;
   margin-bottom: var(--dl-space-space-unit);
@@ -520,14 +577,14 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-text11 {
+.tutorial-new-crafting-tab-text15 {
   height: auto;
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 400;
   line-height: 1.55;
   margin-bottom: var(--dl-space-space-unit);
@@ -551,6 +608,8 @@
 }
 .tutorial-new-crafting-tab-container19 {
   flex: 1;
+  width: auto;
+  height: auto;
   display: flex;
   align-self: flex-start;
   margin-top: var(--dl-space-space-doubleunit);
@@ -559,14 +618,16 @@
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
+  justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-text12 {
+.tutorial-new-crafting-tab-text16 {
+  height: auto;
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 400;
   line-height: 1.55;
   margin-bottom: var(--dl-space-space-unit);
@@ -581,8 +642,6 @@
 }
 .tutorial-new-crafting-tab-container20 {
   flex: 1;
-  width: auto;
-  height: auto;
   display: flex;
   align-self: flex-start;
   margin-top: var(--dl-space-space-doubleunit);
@@ -591,16 +650,14 @@
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
-  justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-text13 {
-  height: auto;
+.tutorial-new-crafting-tab-text17 {
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 400;
   line-height: 1.55;
   margin-bottom: var(--dl-space-space-unit);
@@ -624,6 +681,8 @@
 }
 .tutorial-new-crafting-tab-container22 {
   flex: 1;
+  width: auto;
+  height: auto;
   display: flex;
   align-self: flex-start;
   margin-top: var(--dl-space-space-doubleunit);
@@ -632,14 +691,16 @@
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
+  justify-content: flex-start;
 }
-.tutorial-new-crafting-tab-text14 {
+.tutorial-new-crafting-tab-text18 {
+  height: auto;
   font-size: 22px;
   align-self: stretch;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 400;
   line-height: 1.55;
   margin-bottom: var(--dl-space-space-unit);
@@ -653,227 +714,6 @@
   object-fit: cover;
 }
 .tutorial-new-crafting-tab-container23 {
-  flex: 1;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.tutorial-new-crafting-tab-text15 {
-  height: auto;
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image10 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-container24 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.tutorial-new-crafting-tab-container25 {
-  flex: 1;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorial-new-crafting-tab-text16 {
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image11 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-container26 {
-  flex: 1;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.tutorial-new-crafting-tab-text17 {
-  height: auto;
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image12 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-container27 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.tutorial-new-crafting-tab-container28 {
-  flex: 1;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-}
-.tutorial-new-crafting-tab-text18 {
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image13 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-container29 {
-  flex: 1;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.tutorial-new-crafting-tab-text19 {
-  height: auto;
-  font-size: 22px;
-  align-self: stretch;
-  font-style: normal;
-  margin-top: var(--dl-space-space-unit);
-  text-align: center;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 1.55;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgba(107, 107, 107, 0.23);
-}
-.tutorial-new-crafting-tab-image14 {
-  width: 100%;
-  height: auto;
-  align-self: center;
-  object-fit: cover;
-}
-.tutorial-new-crafting-tab-footer-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
-}
-.tutorial-new-crafting-tab-footer {
-  width: 100%;
-  display: flex;
-  max-width: var(--dl-size-size-maxcontent);
-  align-items: center;
-  padding-top: var(--dl-space-space-tripleunit);
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-tripleunit);
-  justify-content: space-between;
-}
-.tutorial-new-crafting-tab-copyright-container {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.tutorial-new-crafting-tab-icon10 {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.tutorial-new-crafting-tab-link {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Raleway;
-  font-weight: 700;
-  line-height: 1.55;
-  text-decoration: none;
-}
-.tutorial-new-crafting-tab-text20 {
-  text-transform: lowercase;
-}
-.tutorial-new-crafting-tab-container30 {
   display: none;
 }
 @media(max-width: 1200px) {
@@ -936,18 +776,6 @@
     justify-content: center;
   }
   .tutorial-new-crafting-tab-container21 {
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .tutorial-new-crafting-tab-container24 {
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .tutorial-new-crafting-tab-container27 {
     width: 100%;
     flex-wrap: wrap;
     align-items: flex-start;

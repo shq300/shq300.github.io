@@ -43,6 +43,59 @@
 
 
 
+.footer-container-footer-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.footer-container-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.footer-container-copyright-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.footer-container-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.footer-container-link {
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 1.55;
+  text-decoration: none;
+}
+.footer-container-text {
+  text-transform: lowercase;
+}
+
+
+
+
+
+
+
+
+
+
+
 .tutorial-adding-new-equipment-slot-container {
   width: 100%;
   height: auto;
@@ -1279,47 +1332,6 @@
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
-}
-.tutorial-adding-new-equipment-slot-footer-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
-}
-.tutorial-adding-new-equipment-slot-footer {
-  width: 100%;
-  display: flex;
-  max-width: var(--dl-size-size-maxcontent);
-  align-items: center;
-  padding-top: var(--dl-space-space-tripleunit);
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-tripleunit);
-  justify-content: space-between;
-}
-.tutorial-adding-new-equipment-slot-copyright-container {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.tutorial-adding-new-equipment-slot-icon10 {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.tutorial-adding-new-equipment-slot-link {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Raleway;
-  font-weight: 700;
-  line-height: 1.55;
-  text-decoration: none;
-}
-.tutorial-adding-new-equipment-slot-text38 {
-  text-transform: lowercase;
 }
 .tutorial-adding-new-equipment-slot-container50 {
   display: none;
